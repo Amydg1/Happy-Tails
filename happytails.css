@@ -1,0 +1,10 @@
+@charset "utf-8";
+ 
+ /* Header style */
+.container1 {
+    text-align: center; /* Centers the content inside the header */
+    background-color: #F15A28; /* Optional background color */
+    margin-top: -70px;
+    width: auto;
+    height: 105px;
+}
