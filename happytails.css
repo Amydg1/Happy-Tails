@@ -11,5 +11,29 @@
 .container2 {
     width: auto;
     height: 279px;
+    background-color: #FFFFFF;
+	justify-content: center;
+	display: flex;
+	
+	
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.container3 {
+	width: auto;
+    height: 279px;
+	justify-content: center;
     background-color: #EFE1CF;
 }
+
+
+
+
+
+
+
