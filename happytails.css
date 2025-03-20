@@ -6,18 +6,17 @@
     background-color: #F15A28; /* Optional background color */
     margin-top: -70px;
     width: auto;
-    height: 105px;
-	 font-family: "filson-pro", sans-serif;
+    height: 127px;
+    font-family: "filson-pro", sans-serif;
 }
 .container2 {
     width: auto;
-    height: 279px;
+    height: 350px;
     background-color: #FFFFFF;
     justify-content: center;
     display: flex;
-    font-family: "filson-pro", sans-serif;
-	
-	
+    align-content: center;
+    font-family: "filson-pro", sans-serif;	
 }
 /* Centered text */
 .centered {
@@ -38,22 +37,24 @@
 }
 
 .dropdown {
-    height: 0px;
+    height: 20px;
     min-width: 0px;
     top: -10mm;
-    background-color: #F15A28;
     color: #EFE1CF;
     font-family: "filson-pro", sans-serif;
 }
 .dropdown-toggle {
-	color: #efe1cf;
-	font-family: "filson-pro", sans-serif;
+    color: #efe1cf;
+    font-family: "filson-pro", sans-serif;
+    width: 20px;
+    height: 36px;
+  
 }
 
 .happytails {
     color: #efe1cf;
     font-family: "filson-pro", sans-serif;
-    font-size: 27px;
+    font-size: 35px;
 }
 
 .image-wrapper {
@@ -81,10 +82,12 @@
     border-radius: 5px;
 }
 
-.paw-container img {
-  display: block; /* Zorgt ervoor dat afbeeldingen correct worden weergegeven */
-  max-width: 100%; /* Zorgt ervoor dat ze niet te groot worden */
+.paw-container {
+  display: block; 
+  max-width: 100%;
   height: auto;
 }
+
+
 
 
