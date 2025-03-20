@@ -7,13 +7,15 @@
     margin-top: -70px;
     width: auto;
     height: 105px;
+	 font-family: "filson-pro", sans-serif;
 }
 .container2 {
     width: auto;
     height: 279px;
     background-color: #FFFFFF;
-	justify-content: center;
-	display: flex;
+    justify-content: center;
+    display: flex;
+    font-family: "filson-pro", sans-serif;
 	
 	
 }
@@ -23,17 +25,66 @@
     left: 50%;
     transform: translate(-50%, -50%);
     top: 50%;
+	font-family: "filson-pro", sans-serif;
 }
 .container3 {
-	width: auto;
-    height: 279px;
-	justify-content: center;
+    width: auto;
+    height: 410px;
+    justify-content: center;
     background-color: #EFE1CF;
+    font-family: "filson-pro", sans-serif;
+	display: flex;
+	align-items: center
 }
 
+.dropdown {
+    height: 0px;
+    min-width: 0px;
+    top: -10mm;
+    background-color: #F15A28;
+    color: #EFE1CF;
+    font-family: "filson-pro", sans-serif;
+}
+.dropdown-toggle {
+	color: #efe1cf;
+	font-family: "filson-pro", sans-serif;
+}
 
+.happytails {
+    color: #efe1cf;
+    font-family: "filson-pro", sans-serif;
+    font-size: 27px;
+}
 
+.image-wrapper {
+  display: flex; /* Zet de items naast elkaar */
+  justify-content: center; /* Zorgt ervoor dat ze in het midden staan */
+  align-items: center; /* Centreert alles verticaal */
+  gap: 20px; /* Ruimte tussen de afbeeldingen */
+}
 
+.paw-container {
+  position: relative;
+  text-align: center;
+}
 
+.paw-text {
+    position: absolute;
+    top: 50%; /* Pas deze waarde aan om de tekst goed te positioneren */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F15A28; /* Tekstkleur */
+    font-size: 25px;
+    font-family: "filson-pro", sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.paw-container img {
+  display: block; /* Zorgt ervoor dat afbeeldingen correct worden weergegeven */
+  max-width: 100%; /* Zorgt ervoor dat ze niet te groot worden */
+  height: auto;
+}
 
 
