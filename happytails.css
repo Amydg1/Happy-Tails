@@ -34,6 +34,7 @@
     font-family: "filson-pro", sans-serif;
 	display: flex;
 	align-items: center;
+	flex-direction: column;
 }
 
 .dropdown {
@@ -88,6 +89,35 @@
   height: auto;
 }
 
+.video {
+    width: 289px;
+    height: 145px;
+}
+   
 
+.container4 {
+    text-align: center; /* Centers the content inside the header */
+    background-color: #EFE1CF; /* Optional background color */
+    margin-top: -70px;
+    width: auto;
+    height: 419px;
+    font-family: "filson-pro", sans-serif;
+}
 
+.container5 {
+    text-align: center; /* Centers the content inside the header */
+    background-color: #56A4DA; /* Optional background color */
+    margin-top: -70px;
+    width: auto;
+    height: 297px;
+    font-family: "filson-pro", sans-serif;
+}
 
+.container6 {
+    text-align: center; /* Centers the content inside the header */
+    background-color: #F15A28; /* Optional background color */
+    margin-top: -70px;
+    width: auto;
+    height: 180px;
+    font-family: "filson-pro", sans-serif;
+}
