@@ -1,5 +1,26 @@
 @charset "utf-8";
  
+.body {
+	font-family: "filson-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+ .floating-button {
+            position: absolute;
+            bottom: -15px; /* Knop hangt net buiten de container */
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 10; /* Zorgt ervoor dat de knop boven de container ligt */
+}
+
+
  /* Header style */
 .container1 {
     text-align: center; /* Centers the content inside the header */
@@ -98,16 +119,64 @@
 .container4 {
     text-align: center; /* Centers the content inside the header */
     background-color: #EFE1CF; /* Optional background color */
-    margin-top: -70px;
+    margin-top: 0px;
     width: auto;
-    height: 419px;
+    height: 443px;
     font-family: "filson-pro", sans-serif;
 }
+
+.guaranteed{
+    text-align: center;
+    font-size: 48px;
+    font-family: "filson-pro", sans-serif;
+	color: #F15A28
+}
+.guaranteed h5 {
+    padding-top: 20px; /* Moves text down without affecting the container */
+    font-size: 28px;
+}
+.guaranteed h3{
+    font-size: 11px;
+}
+
+.image-container {
+    display: flex; /* Puts images in a row */
+    justify-content: center; /* Centers images */
+    gap: 10px; /* Space between the first two images */
+    align-items: center; /* Ensures all images are aligned */
+}
+
+.bone-container {
+    position: relative;
+    margin-left: 30px; /* Adds more space to the bone image */
+}
+
+.bone-container img {
+    display: block; /* Ensures no extra spacing issues */
+}
+
+.view-more {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Slight background for readability */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
 
 .container5 {
     text-align: center; /* Centers the content inside the header */
     background-color: #56A4DA; /* Optional background color */
-    margin-top: -70px;
+    margin-top: 0px;
     width: auto;
     height: 297px;
     font-family: "filson-pro", sans-serif;
@@ -121,5 +190,6 @@
     height: 180px;
     font-family: "filson-pro", sans-serif;
 }
+
 
 
