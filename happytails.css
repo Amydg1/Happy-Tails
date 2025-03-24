@@ -186,7 +186,7 @@ font-style: normal;
     transform: rotate(-15deg) translate(-340px, -200px); /* Rotates the image */
     position: absolute; /* Allows the image to overlap the text */
     top: 50%; /* Moves the image to the center vertically */
-    left: 50%; /* Moves the image to the center horizontally */
+    left: 50%; 
 }
 
 .container5 h2 {
