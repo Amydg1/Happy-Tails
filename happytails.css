@@ -218,6 +218,7 @@ font-style: normal;
     padding-top: 93px; /* Moves text down without affecting the container */
     font-size: 28px;
     color: #F15A28;
+	
 }
 
 .blog h3 {
@@ -264,7 +265,7 @@ font-style: normal;
 .aboutus h2 {
     font-size: 18px;
     color: #efe1cf;
-    padding-left:250px;
+    padding-left:300px;
     margin-top: 9px;
 }
 
@@ -272,6 +273,6 @@ font-style: normal;
 .slogan img {
     display: block; /* Makes images block-level */
     margin-bottom: 20px; /* Adds space between images */
-    margin-left: 100px; /* Centers images horizontally */
+    margin-left: 250px; /* Centers images horizontally */
     margin-right: 40px; /* Centers images horizontally */
 }
