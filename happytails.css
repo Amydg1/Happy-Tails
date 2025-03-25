@@ -32,12 +32,12 @@ font-style: normal;
 }
 .container2 {
     width: auto;
-    height: 350px;
+    height: 108px;
     background-color: #FFFFFF;
     justify-content: center;
     display: flex;
     align-content: center;
-    font-family: "filson-pro", sans-serif;	
+    font-family: "filson-pro", sans-serif;
 }
 /* Centered text */
 .centered {
@@ -228,10 +228,11 @@ font-style: normal;
 
 .dog {
     position: relative; /* Makes the element moveable */
-    top: -30px; 
+    top: 40px;
+	bottom: 60px;
     height: 0px;
     width: 10px;
-    left: 60px
+    left: 50px
 }
 
 .blogimage {
@@ -244,30 +245,33 @@ font-style: normal;
 }
 
 .container7 {
-    text-align: center; /* Centers the text */
-    background-color: #F15A28; /* Optional background color */
-    margin-top: -70px;
-    width: auto;
-    height: auto; /* Let the height adjust dynamically based on content */
+    display: flex; 
+    transform: translate;
+	align-content: center;
+    background-color: #F15A28;
+    padding: 20px; /* Optional: Adds padding to the container */
     font-family: "filson-pro", sans-serif;
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: center; /* Centers content vertically */
-    align-items: center; /* Centers content horizontally */
+    width: auto;
+    height: auto;
 }
 
-.happylogo img,
-.slogan img {
-    display: block; /* Makes images block-level so they take up full width */
-    margin-bottom:100px;
-    margin-left: -400px;
-	margin-right: auto; /* Centers images horizontally */
+.images-container {
+    display: flex; /* Align images horizontally */
+    flex-direction: column; /* Stack the images vertically */
+    justify-content: center;
 }
 
 .aboutus h2 {
     font-size: 18px;
     color: #efe1cf;
-    margin-bottom: 20px; /* Adds spacing between each heading */
-    text-align: center; /* Centers the text inside the h2 */
-    padding: 5px 0;
+    padding-left:250px;
+    margin-top: 9px;
+}
+
+.happylogo img,
+.slogan img {
+    display: block; /* Makes images block-level */
+    margin-bottom: 20px; /* Adds space between images */
+    margin-left: 100px; /* Centers images horizontally */
+    margin-right: 40px; /* Centers images horizontally */
 }
