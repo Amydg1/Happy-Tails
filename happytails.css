@@ -142,8 +142,9 @@ font-style: normal;
 .image-container {
     display: flex; /* Puts images in a row */
     justify-content: center; /* Centers images */
-    gap: 10px; /* Space between the first two images */
-    align-items: center; /* Ensures all images are aligned */
+    gap: 20px; /* Space between the first two images */
+    align-items: center;
+    height: 270px;
 }
 
 .bone-container {
@@ -206,12 +207,67 @@ font-style: normal;
 
 .container6 {
     text-align: center; /* Centers the content inside the header */
-    background-color: #F15A28; /* Optional background color */
-    margin-top: -70px;
+    background-color: #efe1cf; /* Optional background color */
+    margin-top: -80px;
     width: auto;
-    height: 180px;
+    height: 537px;
     font-family: "filson-pro", sans-serif;
 }
 
+.blog h5 {
+    padding-top: 93px; /* Moves text down without affecting the container */
+    font-size: 28px;
+    color: #F15A28;
+}
 
+.blog h3 {
+	padding-top: 0px; /* Moves text down without affecting the container */
+    font-size: 11px;
+	color: #F15A28;
+}
 
+.dog {
+    position: relative; /* Makes the element moveable */
+    top: -30px; 
+    height: 0px;
+    width: 10px;
+    left: 60px
+}
+
+.blogimage {
+	display: flex; /* Puts images in a row */
+    justify-content: center; /* Centers images */
+    gap: 60px; /* Space between the first two images */
+    align-items: center;
+    height: 270px;
+	
+}
+
+.container7 {
+    text-align: center; /* Centers the text */
+    background-color: #F15A28; /* Optional background color */
+    margin-top: -70px;
+    width: auto;
+    height: auto; /* Let the height adjust dynamically based on content */
+    font-family: "filson-pro", sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+}
+
+.happylogo img,
+.slogan img {
+    display: block; /* Makes images block-level so they take up full width */
+    margin-bottom:100px;
+    margin-left: -400px;
+	margin-right: auto; /* Centers images horizontally */
+}
+
+.aboutus h2 {
+    font-size: 18px;
+    color: #efe1cf;
+    margin-bottom: 20px; /* Adds spacing between each heading */
+    text-align: center; /* Centers the text inside the h2 */
+    padding: 5px 0;
+}
