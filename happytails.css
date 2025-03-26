@@ -22,13 +22,14 @@ font-style: normal;
     font-family: "filson-pro", sans-serif;
 }
 .container2 {
-    width: auto;
-    height: 257px;
+    width: 100%;
+    height: 500px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center; /* Centers content horizontally */
     align-items: center; /* Centers content vertically */
     font-family: "filson-pro", sans-serif;
+	overflow: hidden;
 	
 }
 
@@ -39,13 +40,13 @@ font-style: normal;
     width: 100%;
     height: 100%;
 }
-
+/*
 video {
     max-width: 100%;
     max-height: 100%; 
     object-fit: cover; 
 }
-
+*/
 .linkwraper{
 	 text-decoration: none; /* Removes underline */
   color: inherit; /* Keeps text color unchanged */
@@ -196,7 +197,7 @@ video {
     align-items: center; /* Center content vertically */
     background-color: #56A4DA; /* Optional background color */
     width: 100%;
-    height: 260px; /* Adjust height as needed */
+    height: 300px; /* Adjust height as needed */
     position: relative; /* This is important for absolute positioning inside */
     font-family: "filson-pro", sans-serif;
 }
@@ -215,14 +216,39 @@ video {
     text-align: center; /* Center the text */
     max-width: 50%;
     position: absolute; /* This will allow the text to be over the image */
-    top: 50%; /* Vertically centers the text */
+    top: 60%; /* Vertically centers the text */
     left: 50%; /* Horizontally centers the text */
     transform: translate(-50%, -50%); /* Fine-tunes the centering */
     z-index: 2; /* Ensures the text is in front of the image */
     color: #EFE1CF;
     line-height: 28px;
 }
+.orangebutton {
+	margin-bottom: 210px
+}
 
+.our-mission-wrapper {
+    position: relative;
+    display: inline-block; /* Keeps it only around the image */
+}
+
+.our-mission-wrapper img {
+    display: block; 
+}
+
+.our-mission-text {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfect centering */
+    color: #EFE1CF;
+    font-size: 25px; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+	font-family: "snicker", sans-serif;
+}
 
 
 .container6 {
@@ -270,6 +296,7 @@ video {
     display: flex; 
     transform: translate;
 	align-content: center;
+	justify-content: center;
     background-color: #F15A28;
     padding: 20px; /* Optional: Adds padding to the container */
     font-family: "filson-pro", sans-serif;
@@ -286,7 +313,7 @@ video {
 .aboutus h2 {
     font-size: 18px;
     color: #efe1cf;
-    padding-left:300px;
+/*    margin-left:300px;*/
     margin-top: 9px;
 }
 
@@ -294,6 +321,6 @@ video {
 .slogan img {
     display: block; /* Makes images block-level */
     margin-bottom: 20px; /* Adds space between images */
-    margin-left: 250px; /* Centers images horizontally */
-    margin-right: 40px; /* Centers images horizontally */
+    margin-left: 50px; /* Centers images horizontally */
+/*    margin-right: 40px;  Centers images horizontally */
 }
