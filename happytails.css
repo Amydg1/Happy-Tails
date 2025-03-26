@@ -118,7 +118,7 @@ video {
 }
 
 .paw-text a:hover {
-  color: #D43F00; /* Optional: changes color on hover */
+  color: #efe1cf; /* Optional: changes color on hover */
 }
 
 .paw-container {
@@ -303,6 +303,16 @@ video {
     color: #efe1cf;
 /*    margin-left:300px;*/
     margin-top: 9px;
+	
+}
+
+.aboutus a {
+	  color: #efe1cf; /* Change this to any color you like */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.aboutus a:hover {
+  color: #D43F00; /* Optional: changes color on hover */
 }
 
 .happylogo img,
