@@ -23,7 +23,7 @@ font-style: normal;
 }
 .container2 {
     width: 100%;
-    height: 500px;
+    height: 700px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: center; /* Centers content horizontally */
@@ -72,10 +72,20 @@ video {
     font-weight: 700;
     font-style: normal;
     position: relative;
-    top: -60px; 
-	color: #56a4da;
+    top:20px;
+	color: #F15A28;
 }
 
+.nearestbuddy h4 {
+	font-size: 35px;
+    font-family: "snicker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+    bottom: -320px; 
+	left: 20px;
+	color: #F15A28;
+}
 
 
 .happytails {
@@ -88,37 +98,38 @@ video {
     display: flex; /* Zet de items naast elkaar */
     justify-content: center; /* Zorgt ervoor dat ze in het midden staan */
     align-items: center; /* Centreert alles verticaal */
-    gap: 20px;	
+ 
 }
 
 .paw-container {
     position: relative;
     text-align: center;
     padding-left: 40px;	
-	padding-bottom: px
+	padding-bottom: 130px;
 }
 
 .paw-text {
     position: absolute;
-    top: 50%; /* Pas deze waarde aan om de tekst goed te positioneren */
+    top: 30%; /* Pas deze waarde aan om de tekst goed te positioneren */
     left: 50%;
     transform: translate(-35%, -50%);
-    color: #F15A28; /* Tekstkleur */
+    color: #EFE1CF; /* Tekstkleur */
     font-size: 25px;
     font-family: "filson-pro", sans-serif;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
 	
 }
 
 .paw-text a {
-  color: #FF5733; /* Change this to any color you like */
+  color: #EFE1CF; /* Change this to any color you like */
   text-decoration: none; /* Optional: removes underline */
+  font-family: "snicker", sans-serif;
 }
 
 .paw-text a:hover {
-  color: #efe1cf; /* Optional: changes color on hover */
+  color: #459AC9; /* Optional: changes color on hover */
 }
 
 .paw-container {
@@ -255,7 +266,7 @@ video {
 
 .dog {
     position: relative; /* Makes the element moveable */
-    top: 40px;
+	top: -50px;
 	bottom: 40px;
     height: 0px;
     width: 10px;
