@@ -168,15 +168,6 @@ video {
     height: 270px;
 }
 
-.bone-container {
-    position: relative;
-    margin-left: 30px; /* Adds more space to the bone image */
-}
-
-.bone-container img {
-    display: block; /* Ensures no extra spacing issues */
-}
-
 .view-more {
     position: absolute;
     top: 50%; 
@@ -280,6 +271,7 @@ video {
 	
 }
 
+
 .container7 {
     display: flex; 
     transform: translate;
@@ -322,3 +314,27 @@ video {
     margin-left: 50px; /* Centers images horizontally */
 /*    margin-right: 40px;  Centers images horizontally */
 }
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.social-icons {
+    display: flex;
+    gap: 5px; /* Adjust spacing between social icons */
+    justify-content: center;
+	margin-left: 50px
+}
+
+.social-icons a {
+    pointer-events: auto; /* Ensures the links are clickable */
+    text-decoration: none; /* Removes any unwanted underlines */
+}
+
+.social-icons a:hover {
+  color: #D43F00; 
+}
+
