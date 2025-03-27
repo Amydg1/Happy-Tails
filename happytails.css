@@ -246,7 +246,7 @@ video {
     background-color: #efe1cf; /* Optional background color */
     margin-top: -80px;
     width: auto;
-    height: 537px;
+    height: 450px;
     font-family: "filson-pro", sans-serif;
 }
 
@@ -264,9 +264,19 @@ video {
 	color: #F15A28;
 }
 
+
+.viewmorebone {
+	padding-top: -60px; /* Moves text down without affecting the container */
+    font-size: 28px;
+	font-family: "snicker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 .dog {
     position: relative; /* Makes the element moveable */
-	top: -40px;
+	top: -70px;
 	bottom: 40px;
     height: 0px;
     width: 10px;
