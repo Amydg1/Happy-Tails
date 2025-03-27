@@ -276,7 +276,7 @@ video {
 
 .dog {
     position: relative; /* Makes the element moveable */
-	top: -48px;
+	top: -40px;
 	bottom: 40px;
     height: 0px;
     width: 10px;
