@@ -11,7 +11,6 @@ font-style: normal;
 	color: #EFE1CF
 	
 }
-
  /* Header style */
 .container1 {
     display: grid;
@@ -36,7 +35,8 @@ font-style: normal;
 /* Ensures the image doesn't stretch */
 .logo-container img {
     max-height: 150px;
-    margin-left: -320px;
+    margin-left: -880px;
+	width: 100%;
 }
 
 /* Aligns the button container to the right */
@@ -46,6 +46,7 @@ font-style: normal;
     justify-content: center;
     height: 16px;
     width: 348px;
+	
 }
 
 /* Optional: Styling buttons */
@@ -62,7 +63,7 @@ font-style: normal;
     display: inline-flex; /* Makes text align perfectly */
     align-items: center; /* Centers text vertically */
     justify-content: center; /* Centers text horizontally */
-    height: auto;
+    height: 20px;
     line-height: normal; /* Prevents text clipping */
 }
 
@@ -97,16 +98,15 @@ video {
 }
 */
 .linkwraper{
-	 text-decoration: none; /* Removes underline */
+  text-decoration: none; /* Removes underline */
   color: inherit; /* Keeps text color unchanged */
   display: block; /* Makes the whole div clickable */
-	
 }
 
 	
 .container3 {
     width: auto;
-    height: 410px;
+    height: 280px;
     justify-content: center;
     background-color: #EFE1CF;
     font-family: "filson-pro", sans-serif;
@@ -116,23 +116,29 @@ video {
 }
 
 .container3 h5 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: "snicker", sans-serif;
     font-weight: 700;
     font-style: normal;
     position: relative;
-    top:20px;
 	color: #F15A28;
+	bottom: -100px;
 }
-
+.container3 h2 {
+	 font-size: 18px;
+    max-width: 80%;
+	margin-top: 50px;
+    color: #56A4DA;
+    line-height: 20px;
+	bottom: 20px;
+}
 .nearestbuddy h4 {
-	font-size: 35px;
+	font-size: 30px;
     font-family: "snicker", sans-serif;
     font-weight: 700;
     font-style: normal;
     position: relative;
-    bottom: -320px; 
-	left: 20px;
+    bottom: -270px; 
 	color: #F15A28;
 }
 
@@ -155,31 +161,11 @@ video {
     text-align: center;
     padding-left: 40px;	
 	padding-bottom: 130px;
+
 }
 
-.paw-text {
-    position: absolute;
-    top: 30%; /* Pas deze waarde aan om de tekst goed te positioneren */
-    left: 50%;
-    transform: translate(-35%, -50%);
-    color: #EFE1CF; /* Tekstkleur */
-    font-size: 25px;
-    font-family: "filson-pro", sans-serif;
-    font-weight: bold;
-    padding: 10px 10px;
-    border-radius: 5px;
-	
-}
 
-.paw-text a {
-  color: #EFE1CF; /* Change this to any color you like */
-  text-decoration: none; /* Optional: removes underline */
-  font-family: "snicker", sans-serif;
-}
 
-.paw-text a:hover {
-  color: #459AC9; /* Optional: changes color on hover */
-}
 
 .paw-container {
   display: block; 
@@ -209,8 +195,8 @@ video {
 	color: #F15A28
 }
 .guaranteed h5 {
-    padding-top: 20px; /* Moves text down without affecting the container */
-    font-size: 28px;
+    padding-top: 25px; /* Moves text down without affecting the container */
+    font-size: 30px;
 	font-family: "snicker", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -302,7 +288,7 @@ video {
 
 .blog h5 {
     padding-top: 93px; /* Moves text down without affecting the container */
-    font-size: 28px;
+    font-size: 30px;
     color: #F15A28;
 	font-family: "snicker", sans-serif;
 }
@@ -329,7 +315,8 @@ video {
 	bottom: 40px;
     height: 0px;
     width: 10px;
-    left: 50px
+    left: 50px;
+	max-width: 100%
 }
 
 .blogimage {
@@ -414,8 +401,15 @@ video {
 	height: 1000px;
 	
 }
-
-
+.copyright {
+    margin: 0 !important; /* Removes extra spacing */
+    text-align: center; /* Centers the text */
+    font-size: 14px; /* Adjusts text size */
+    color: #EFE1CF; /* Slightly darker text for readability */
+    padding: 10px 0; /* Adds some space above and below */
+    background-color: #F15A28; /* Optional: Background color */
+	 border-top: 1px solid #efe1cf; /* Creates a line above */
+}
 
 
 
