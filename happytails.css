@@ -14,13 +14,62 @@ font-style: normal;
 
  /* Header style */
 .container1 {
-    text-align: center; /* Centers the content inside the header */
-    background-color: #F15A28; /* Optional background color */
+    display: grid;
+    grid-template-columns:auto; /* Three equal sections */
+    align-items: center;
+    background-color: #F15A28; /* Your header color */
     margin-top: -70px;
     width: auto;
     height: 127px;
     font-family: "filson-pro", sans-serif;
+    padding: 0 20px;
+    position: relative;
 }
+
+/* Centering the logo */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    grid-column: 2; /* Center column */
+}
+
+/* Ensures the image doesn't stretch */
+.logo-container img {
+    max-height: 150px;
+    margin-left: -320px;
+}
+
+/* Aligns the button container to the right */
+.button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    height: 16px;
+    width: 348px;
+}
+
+/* Optional: Styling buttons */
+.btn-primary {
+    padding: 10px 15px; /* Adjusted padding */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #F15A28;
+    color: #EFE1CF;
+    font-weight: bold;
+    font-family: "snicker", sans-serif;
+    text-align: center;
+    display: inline-flex; /* Makes text align perfectly */
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+    height: auto;
+    line-height: normal; /* Prevents text clipping */
+}
+
+.btn-primary:hover {
+    background-color: #D43F00;
+}
+
 .container2 {
     width: 100%;
     height: 700px;
@@ -358,4 +407,15 @@ video {
 .social-icons a:hover {
   color: #D43F00; 
 }
+
+.coporatepagecolor{
+	background-color: #EFE1CF;
+	width: auto;
+	height: 1000px;
+	
+}
+
+
+
+
 
