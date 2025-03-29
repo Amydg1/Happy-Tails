@@ -35,8 +35,8 @@ font-style: normal;
 /* Ensures the image doesn't stretch */
 .logo-container img {
     max-height: 150px;
-    margin-left: -880px;
-	width: 100%;
+    margin-left: -350px;
+	justify-content: center;
 }
 
 /* Aligns the button container to the right */
