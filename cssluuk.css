@@ -84,7 +84,7 @@ body {
 
 .playdates-button {
   position: absolute;
-  top: 550px;  /* Move down */
+  top: 580px;  /* Move down */
   left: 700px;  /* Move right */
   transform: scale(4.5);  /* Default scale */
 }
@@ -104,5 +104,31 @@ body {
 }
 
 .row.g-3.justify-content-evenly {
-  margin-top: 750px; /* Adjust as needed */
+  margin-top: 800px; /* Adjust as needed */
+}
+
+.card {
+  color: #efe1cf;
+background-color: #56a4da; /* Change this to your desired color */	
+}
+
+.card .card-title {
+  font-family: "snicker", sans-serif;
+font-size: 29px;
+}
+
+.card .card-text {
+  font-family: "filson-pro", sans-serif;
+}
+
+.card-body {
+  padding-top: 30px; /* Adjust based on the negative margin */
+}
+
+
+
+.btn {
+  color: #56a4da;
+background-color: #efe1cf; /* Change this to your desired color */
+	font-family: "snicker", sans-serif;
 }
