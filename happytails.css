@@ -5,6 +5,16 @@
 font-weight: 700;
 font-style: normal;
 }
+
+.container {
+    position: relative;
+    font-family: "filson-pro", sans-serif;
+    background-color: #efe1cf;
+    width: 100vw; /* Ensures it spans the full width of the viewport */
+    height: 100vh; /* Ensures it spans the full height of the viewport */
+
+	
+}
  /* Header style */
 .header {
     display: grid;
@@ -78,6 +88,15 @@ font-style: normal;
     margin: 0 auto;
 }
 
+h2 {
+	color: #f15a28;
+	font-family:  "snicker", sans-serif;;
+}
+
+h3{
+	color: #f15a28;
+	font-family:  "snicker", sans-serif;;
+}
 /* Nearest Buddy apart onderaan */
 .nearestbuddy {
     width: 100%;
@@ -92,76 +111,34 @@ font-style: normal;
     color: #56A4DA;
 }
 
-
-.happytails {
-    color: #efe1cf;
-    font-family: "filson-pro", sans-serif;
-    font-size: 35px;
-}
-
-.image-wrapper {
-    display: flex; /* Zet de items naast elkaar */
-    justify-content: center; /* Zorgt ervoor dat ze in het midden staan */
-    align-items: center; /* Centreert alles verticaal */
- 
-}
-
-.paw-container {
-    position: relative;
+.guaranteed {
+    width: 100%;
+    background-color: #EFE1CF;
     text-align: center;
-    padding-left: 40px;	
-	padding-bottom: 130px;
-
-}
-
-
-
-
-.paw-container {
-  display: block; 
-  max-width: 100%;
-  height: auto;
-}
-
-.video {
-    width: 289px;
-    height: 145px;
-}
-   
-
-.container{
-    text-align: center; /* Centers the content inside the header */
-    background-color: #EFE1CF; /* Optional background color */
-    margin-top: 0px;
-    width: auto;
-    height: 443px;
-    font-family: "filson-pro", sans-serif;
-}
-
-.guaranteed{
-    text-align: center;
-    font-size: 48px;
-    font-family: "filson-pro", sans-serif;
-	color: #F15A28
-}
-.guaranteed h5 {
-    padding-top: 25px; /* Moves text down without affecting the container */
-    font-size: 30px;
-	font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.guaranteed h3{
-    font-size: 11px;
-	
-}
-
-.image-container {
-    display: flex; /* Puts images in a row */
-    justify-content: center; /* Centers images */
-    gap: 20px; /* Space between the first two images */
+    display: flex;
     align-items: center;
-    height: 270px;
+}
+
+.guaranteed-content {
+    max-width: 900px; 
+    margin-top: 50px;
+}
+
+.img-fluid {
+	padding-top: 30px;
+}
+
+.guaranteed h5 {
+    font-size: 30px; /* Kleinere tekst */
+    font-family: "snicker", sans-serif;
+    font-weight: 700;
+    color: #F15A28;
+}
+
+.guaranteed h3 {
+    font-size: 14px;
+    color: #f15a28;
+	
 }
 
 .view-more {
