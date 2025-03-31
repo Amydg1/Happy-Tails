@@ -126,7 +126,7 @@ video {
 }
 .container3 h2 {
 	 font-size: 18px;
-    max-width: 600%;
+    max-width: 60%;
 	margin-top: 80px;
     color: #56A4DA;
     line-height: 20px;
@@ -158,7 +158,7 @@ video {
     font-weight: 700;
     font-style: normal;
     position: relative;
-    bottom: -345px; 
+    bottom: -355px; 
 	color: #F15A28;
 }
 
