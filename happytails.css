@@ -4,14 +4,15 @@
 	font-family: "filson-pro", sans-serif;
 font-weight: 700;
 font-style: normal;
+background-color: #EFE1CF;
 }
 
 .container {
     position: relative;
     font-family: "filson-pro", sans-serif;
     background-color: #efe1cf;
-    width: 100%; /* Ensures it spans the full width of the viewport */
-    height: 100%; /* Ensures it spans the full height of the viewport */
+    min-width: 100%;
+    height: 100%;  
 
 	
 }
@@ -68,13 +69,13 @@ font-style: normal;
     object-fit: cover;
 }
 
-/* Overus sectie (onder de video) */
+
 .overus {
     width: 100%;
     padding: 80px 50px;
     background-color: #EFE1CF;
     display: flex;
-    flex-direction: column; /* Zorgt dat alles onder elkaar staat */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -82,7 +83,6 @@ font-style: normal;
 	max-height: 400px;
 }
 
-/* Content binnen de overus sectie */
 .reviews {
     max-width: 900px; 
     margin: 0 auto;
@@ -97,7 +97,7 @@ h3{
 	color: #f15a28;
 	font-family:  "snicker", sans-serif;;
 }
-/* Nearest Buddy apart onderaan */
+
 .nearestbuddy {
     width: 100%;
     text-align: center;
@@ -128,8 +128,9 @@ h3{
 	padding-top: 30px;
 }
 
+
 .guaranteed h5 {
-    font-size: 30px; /* Kleinere tekst */
+    font-size: 30px; 
     font-family: "snicker", sans-serif;
     font-weight: 700;
     color: #F15A28;
@@ -144,56 +145,67 @@ h3{
 
 
 
-
 .blueblock {
+	
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centreert verticaal */
-    align-items: center; /* Centreert horizontaal */
+    justify-content: center; /* Centreert de inhoud verticaal */
+    align-items: center; /* Centreert de inhoud horizontaal */
     background-color: #56A4DA;
-    width: 100vw; /* Volledige breedte van het scherm */
+    width: 100vw; 
+    min-height: 30vh; 
     text-align: center;
     font-family: "filson-pro", sans-serif;
-    position: relative;
-    overflow: hidden; /* Voorkomt dat de afbeelding uitsteekt */
+    position: relative; 
+/*    overflow: hidden; */
+/*    padding: 20px; */
+    box-sizing: border-box; 
+
 }
 
-/* Titel */
-.our-mission-text {
+
+.text-content h5{
+	font-size: 30px;
     color: #EFE1CF;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "snicker", sans-serif;
-    position: relative;
-    z-index: 2; /* Houdt de tekst boven de afbeelding */
-    margin-bottom: 10px;
+	font-family: "snicker", sans-serif;
+
 }
 
-/* Tekst */
-.blueblock h2 {
-    font-size: 18px;
-    color: #EFE1CF;
-    max-width: 60%; /* Zorgt dat de tekst niet te breed is */
-    line-height: 28px;
-    position: relative;
-    z-index: 2; /* Houdt de tekst boven de afbeelding */
-    right: -202px;
+.text-content h2 {
+	color: #EFE1CF;
+	font-size: 20px;
+	text-align: center;
+	
 }
 
-/* Achtergrond afbeelding (nose) */
+/* Zorgt dat de afbeelding achter de tekst komt */
 .nose {
-    width: auto; /* Pas dit aan naar de gewenste grootte */
+    max-width: 50%;
     height: auto;
     transform: rotate(-15deg) translate(-50%, -50%);
     position: absolute;
-    top: 50%;
-    right: 70%;
-    z-index: 1; /* Zet de afbeelding achter de tekst */
+    top: 30%; 
+    left: 10%; 
+    z-index: 0; /* Zet de afbeelding achter de tekst */
+}
+
+
+.text-content {
+    position: relative;
+    z-index: 1;
+	width: 70%
+}
+
+.blog-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+padding-top: 20px;
 }
 
 
 .blog h5 {
-    padding-top: 93px; /* Moves text down without affecting the container */
+    padding-bottom: 20px; /* Moves text down without affecting the container */
     font-size: 30px;
     color: #F15A28;
 	font-family: "snicker", sans-serif;
@@ -205,19 +217,9 @@ h3{
 	color: #F15A28;
 }
 
-
-.viewmorebone {
-	padding-top: -60px; /* Moves text down without affecting the container */
-    font-size: 28px;
-	font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
-
 .dog {
     position: relative; /* Makes the element moveable */
-	top: -40px;
+	top: -60px;
 	bottom: 40px;
     height: 0px;
     width: 10px;
