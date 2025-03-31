@@ -44,7 +44,7 @@ font-style: normal;
 
 .hero-video {
     width: 100%;
-    height: 100vh; /* Zorgt dat het de hele viewport hoogte pakt */
+    height: 100vh; /* Zorgt dat het de hele viewport-hoogte pakt */
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -57,49 +57,36 @@ font-style: normal;
     object-fit: cover; /* Zorgt dat het goed schaalt zonder zwarte balken */
 }
 
-.container{
-	height: 250px;
-	
-}
-
-
+/* Zorgt ervoor dat de .overus sectie niet overlapt met de video */
 .overus {
     max-width: 100%;
-    padding : 50px 50px;
-    background-color: #EFE1CF; /* Light warm background */
+    padding: 80px 50px; /* Meer padding zodat het niet tegen de video aan zit */
+    background-color: #EFE1CF;
     display: flex;
+    flex-direction: column; /* Stapelt de items netjes onder elkaar */
     justify-content: center;
     align-items: center;
     text-align: center;
-	height: 500px;
+    min-height: 500px; /* Voorkomt dat het te klein wordt */
+    position: relative;
+    z-index: 2; /* Zorgt dat het boven de video blijft */
 }
 
 .reviews {
-    max-width: 900px; /* Limits width for better readability */
+    max-width: 900px; 
     margin: 0 auto;
 }
 
-h2 {
-    color: #F15A28;
-	font-family: "snicker", sans-serif;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-h3 {
-    color: #F15A28;
-    font-weight: bold;
-}
-
-.nearestbuddy h4 {
-	font-size: 30px;
+/* Fix voor h4, zodat het niet over de tekst heen schuift */
+.nearestbuddy{
+    font-size: 30px;
     font-family: "snicker", sans-serif;
     font-weight: 700;
     font-style: normal;
-    position: relative;
-    bottom: -420px; 
-	color: #56A4DA;
+    margin-bottom: 20px; /* Weg met bottom: -420px */
+    color: #56A4DA;
 }
+
 
 
 .happytails {
