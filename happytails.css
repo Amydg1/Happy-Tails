@@ -84,7 +84,7 @@ background-color: #EFE1CF;
 }
 
 .container-reviews {
-    max-width: 70%; 
+    max-width: 80%; 
     margin: 0 auto;
 	font-family: "filson-pro", sans-serif;
 	
@@ -204,22 +204,23 @@ h3{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-padding-top: 20px;
-	height: 100px
+	height: 100px;
+	color: #f15a28;
+
 }
 
 
-.blog h5 {
-    padding-bottom: 20px; /* Moves text down without affecting the container */
+.blog-text h5 {
+	padding-top: 20px;
     font-size: 30px;
     color: #F15A28;
 	font-family: "snicker", sans-serif;
 }
 
-.blog h3 {
-	padding-top: 0px; /* Moves text down without affecting the container */
-    font-size: 11px;
-	color: #F15A28;
+.blog-text h3 {
+    font-size: 15px;
+    color: #F15A28;
+    top: 85px;	
 }
 
 .dog {
