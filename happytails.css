@@ -5,14 +5,8 @@
 font-weight: 700;
 font-style: normal;
 }
-
-
-.page {
-	color: #EFE1CF
-	
-}
  /* Header style */
-.container1 {
+.header {
     display: grid;
     grid-template-columns:auto; /* Three equal sections */
     align-items: center;
@@ -24,142 +18,87 @@ font-style: normal;
     padding: 0 20px;
     position: relative;
 }
-
-/* Centering the logo */
-.logo-container {
-    display: flex;
-    justify-content: center;
-    grid-column: 2; /* Center column */
+.navbar {
+    position: relative;
+    z-index: 1000;
 }
 
-/* Ensures the image doesn't stretch */
-.logo-container img {
-    max-height: 150px;
-    margin-left: -350px;
+.navbar-collapse .nav-link{
+	background-color: #F15A28; /*!important*/
+	font-family: "filson-pro", sans-serif;
+	color: #EFE1CF;
+	text-decoration: none; /*!important*/
+}
+.navbar-collapse .nav-link:hover{
+	color: #D43F00; /*!important*/
+	
+}
+
+.logo-container{
 	justify-content: center;
+	display: flex;
+	margin-top: -120px;
+	position:relative;
+	z-index: 1050;
 }
 
-/* Aligns the button container to the right */
-.button-container {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    height: 16px;
-    width: 348px;
-	
-}
-
-/* Optional: Styling buttons */
-.btn-primary {
-    padding: 10px 15px; /* Adjusted padding */
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #F15A28;
-    color: #EFE1CF;
-    font-weight: bold;
-    font-family: "snicker", sans-serif;
-    text-align: center;
-    display: inline-flex; /* Makes text align perfectly */
-    align-items: center; /* Centers text vertically */
-    justify-content: center; /* Centers text horizontally */
-    height: 20px;
-    line-height: normal; /* Prevents text clipping */
-}
-
-.btn-primary:hover {
-    background-color: #D43F00;
-}
-
-.container2 {
+.hero-video {
     width: 100%;
-    height: 700px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    font-family: "filson-pro", sans-serif;
-	overflow: hidden;
-	
-}
-
-.video {
+    height: 100vh; /* Zorgt dat het de hele viewport hoogte pakt */
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-video video {
     width: 100%;
     height: 100%;
+    object-fit: cover; /* Zorgt dat het goed schaalt zonder zwarte balken */
 }
-/*
-video {
+
+.container{
+	height: 250px;
+	
+}
+
+
+.overus {
     max-width: 100%;
-    max-height: 100%; 
-    object-fit: cover; 
-}
-*/
-.linkwraper{
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Keeps text color unchanged */
-  display: block; /* Makes the whole div clickable */
-}
-
-	
-.container3 {
-    width: auto;
-    height: 350px;
+    padding : 50px 50px;
+    background-color: #EFE1CF; /* Light warm background */
+    display: flex;
     justify-content: center;
-    background-color: #EFE1CF;
-    font-family: "filson-pro", sans-serif;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+    align-items: center;
+    text-align: center;
+	height: 500px;
 }
 
-.container3 h5 {
-    font-size: 30px;
-    font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    position: relative;
-	color: #F15A28;
-	bottom: -110px;
-}
-.container3 h2 {
-	 font-size: 18px;
-    max-width: 60%;
-	margin-top: 80px;
-    color: #56A4DA;
-    line-height: 20px;
-	bottom: 35px;
-	
+.reviews {
+    max-width: 900px; /* Limits width for better readability */
+    margin: 0 auto;
 }
 
-.container3 p {
-	color: #f15a28;
-	max-width: 60%;
-	margin-top: 10px;
-	
+h2 {
+    color: #F15A28;
+	font-family: "snicker", sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
-.container3 h1 {
-	max-width: 60%;
-	margin-top: -20px;
-	font-size: 18px;
-	color: #56A4DA;
-	
+h3 {
+    color: #F15A28;
+    font-weight: bold;
 }
 
-.orange {
-	color: #f15a28;
-}
 .nearestbuddy h4 {
 	font-size: 30px;
     font-family: "snicker", sans-serif;
     font-weight: 700;
     font-style: normal;
     position: relative;
-    bottom: -355px; 
-	color: #F15A28;
+    bottom: -420px; 
+	color: #56A4DA;
 }
 
 
@@ -199,7 +138,7 @@ video {
 }
    
 
-.container4 {
+.container{
     text-align: center; /* Centers the content inside the header */
     background-color: #EFE1CF; /* Optional background color */
     margin-top: 0px;
