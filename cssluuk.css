@@ -84,7 +84,7 @@ body {
 
 .playdates-button {
   position: absolute;
-  top: 550px;  /* Move down */
+  top: 580px;  /* Move down */
   left: 700px;  /* Move right */
   transform: scale(4.5);  /* Default scale */
 }
@@ -121,11 +121,11 @@ font-size: 29px;
   font-family: "filson-pro", sans-serif;
 }
 
-
-.img-fluid {
-margin-top: -80px; /* Adjust as needed */
-	
+.card-body {
+  padding-top: 30px; /* Adjust based on the negative margin */
 }
+
+
 
 .btn {
   color: #56a4da;
