@@ -1,0 +1,39 @@
+@charset "utf-8";
+.body {
+	font-family: "filson-pro", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+body {
+  background-color: #EFE1CF;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.page {
+	color: #EFE1CF
+	
+}
+
+ /* Header style */
+.container1 {
+    text-align: center; /* Centers the content inside the header */
+    background-color: #F15A28; /* Optional background color */
+    margin-top: -70px;
+    width: auto;
+    height: 127px;
+    font-family: "filson-pro", sans-serif;
+}
+.container2 {
+    width: 100%;
+    height: 700px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    font-family: "filson-pro", sans-serif;
+	overflow: hidden;
+}

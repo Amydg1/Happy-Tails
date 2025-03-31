@@ -126,3 +126,9 @@ font-size: 29px;
 margin-top: -80px; /* Adjust as needed */
 	
 }
+
+.btn {
+  color: #56a4da;
+background-color: #efe1cf; /* Change this to your desired color */
+	font-family: "snicker", sans-serif;
+}
