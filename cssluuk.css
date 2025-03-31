@@ -39,66 +39,70 @@ body {
 	overflow: hidden;
 }
 
+/* Default styles for Full Screen (Desktop) */
 .photoplaydates {
-	 position: absolute;
-  top: 350px; /* Move down */
+  position:absolute;
+  top: 350px;  /* Move down */
   left: 1050px; /* Move right */
-transform: scale(4);  /* 1.5 means 150% of the original size */	
+  transform: scale(4);  /* Default scale */
+	width: auto
 }
 
-
 .bubble1 {
-	  position: absolute;
-  top: 350px; /* Move down */
-  left: 570px; /* Move right */
-transform: scale(5.5);  /* 1.5 means 150% of the original size */
-	}
+  position: absolute;
+  top: 350px;  /* Move down */
+  left: 570px;  /* Move right */
+  transform: scale(5.5);  /* Default scale */
+}
 
 .playdates-text {
-    position: absolute;
-     top: 200px; /* Move down */
-  left: 400px; /* Move right */
-transform: scale(2);  /* 1.5 means 150% of the original size */
-    color: #56a4da;
-    font-size: 30px; /* Adjust size as needed */
-    font-weight: bold;
-    text-align: center;
-    width: 0%;
-    pointer-events: none;
-	font-family: "snicker", sans-serif;
+  position: absolute;
+  top: 200px;  /* Move down */
+  left: 450px;  /* Move right */
+  transform: scale(2);  /* Default scale */
+  color: #56a4da;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  pointer-events: none;
+  font-family: "snicker", sans-serif;
 }
 
 .playdates-text-small {
-    position: absolute;
-     top: 260px; /* Move down */
-  left: 400px; /* Move right */
-transform: scale(1);  /* 1.5 means 150% of the original size */
-    color: #000000;
-    font-size: 18px; /* Adjust size as needed */
-    font-weight: normal;
-    text-align: left;
-    width: 26%;
-    pointer-events: none;
-	font-family: "filson-pro", sans-serif;
+  position: absolute;
+  top: 260px;  /* Move down */
+  left: 400px;  /* Move right */
+  transform: scale(1);  /* Default scale */
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  width: 26%;
+  pointer-events: none;
+  font-family: "filson-pro", sans-serif;
 }
 
-.playdates-button{
-		  position: absolute;
-  top: 550px; /* Move down */
-  left: 700px; /* Move right */
-transform: scale(4.5);  /* 1.5 means 150% of the original size */
+.playdates-button {
+  position: absolute;
+  top: 550px;  /* Move down */
+  left: 700px;  /* Move right */
+  transform: scale(4.5);  /* Default scale */
 }
 
-.playdates-button-text{
-	   position: absolute;
-     top: 585px; /* Move down */
-  left: 575px; /* Move right */
-transform: scale(2);  /* 1.5 means 150% of the original size */
-    color: #efe1cf;
-    font-size: 20px; /* Adjust size as needed */
-    font-weight: bold;
-    text-align: center;
-    width: 20%;
-    pointer-events: none;
-	font-family: "snicker", sans-serif;
+.playdates-button-text {
+  position: absolute;
+  top: 585px;  /* Move down */
+  left: 575px;  /* Move right */
+  transform: scale(2);  /* Default scale */
+  color: #efe1cf;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 20%;
+  pointer-events: none;
+  font-family: "snicker", sans-serif;
+}
+
+.row.g-3.justify-content-evenly {
+  margin-top: 750px; /* Adjust as needed */
 }
