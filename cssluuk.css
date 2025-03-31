@@ -104,5 +104,25 @@ body {
 }
 
 .row.g-3.justify-content-evenly {
-  margin-top: 750px; /* Adjust as needed */
+  margin-top: 800px; /* Adjust as needed */
+}
+
+.card {
+  color: #efe1cf;
+background-color: #56a4da; /* Change this to your desired color */	
+}
+
+.card .card-title {
+  font-family: "snicker", sans-serif;
+font-size: 29px;
+}
+
+.card .card-text {
+  font-family: "filson-pro", sans-serif;
+}
+
+
+.img-fluid {
+margin-top: -80px; /* Adjust as needed */
+	
 }
