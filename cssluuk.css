@@ -127,15 +127,14 @@ body {
 }
 
 .playdates-button {
-  position: absolute;
+  position: center;
   top: 580px;  /* Move down */
-  left: 700px;  /* Move right */
   transform: scale(4.5);  /* Default scale */
 	    max-width: 100px; /* Ensure button doesn't get too big */
     height: auto;
 }
 
-.playdates-button-text {
+.playdates-button-text h2 {
   position: absolute;
   top: 585px;  /* Move down */
   left: 575px;  /* Move right */
@@ -150,13 +149,14 @@ body {
 }
 
 .row.g-3.justify-content-evenly {
-  margin-top: 800px; /* Adjust as needed */
+  margin-top: 100px; /* Adjust as needed */
 }
 
 .card {
-  color: #efe1cf;
-background-color: #56a4da; /* Change this to your desired color */	
-	margin-bottom: px; /* Adjust this value as needed */
+    color: #efe1cf;
+    background-color: #56a4da; /* Change this to your desired color */
+    margin-bottom: px; /* Adjust this value as needed */
+    border-radius: 25px;
 }
 
 .card .card-title {
@@ -173,12 +173,18 @@ font-size: 29px;
 	
 }
 
+.img-fluid {
+	border-radius: 25px;
+	
+}
+
 
 
 .btn {
   color: #56a4da;
 background-color: #efe1cf; /* Change this to your desired color */
 	font-family: "snicker", sans-serif;
+	border-radius: 25px;
 }
 
 .dog {
@@ -202,7 +208,6 @@ background-color: #efe1cf; /* Change this to your desired color */
     font-family: "filson-pro", sans-serif;
     width: auto;
     height: auto;
-	
 }
 
 .images-container {
@@ -272,8 +277,7 @@ background-color: #efe1cf; /* Change this to your desired color */
     color: #EFE1CF; /* Slightly darker text for readability */
     padding: 10px 0; /* Adds some space above and below */
     background-color: #F15A28; /* Optional: Background color */
-	 border-top: 1px solid #efe1cf; /* Creates a line above */
+	border-top: 1px solid #efe1cf; /* Creates a line above */
 }
-
 
 
