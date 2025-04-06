@@ -81,13 +81,12 @@ font-family: "snicker", sans-serif;
 .contact-text {
   background-color: #FDEBD0;
   border-radius: 60% / 40%;
-  padding: 3rem 2.5rem;
+  padding: 4rem 2.5rem 2rem 2.5rem;
   width: 360px;
   font-size: 1.1rem;
   line-height: 1.6;
   text-align: left;
   color: #56a4da;
-  margin-top: 50px;
 }
 
 /* Right-side form */
