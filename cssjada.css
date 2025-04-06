@@ -201,3 +201,6 @@ font-family: "snicker", sans-serif;
   left: 60px;
   width: 80px;
 }
+.footer {
+  /* overflow: hidden; */ /* comment this out for now */
+}
