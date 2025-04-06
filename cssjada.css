@@ -119,7 +119,7 @@ body {
 /* Placeholder style */
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #005792;
+  color: #56A4DA;
   opacity: 1;
   font-weight: bold;
 }
