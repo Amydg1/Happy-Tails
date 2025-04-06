@@ -4,15 +4,20 @@
 	font-family: "filson-pro", sans-serif;
 font-weight: 700;
 font-style: normal;
+background-color: #EFE1CF;
 }
 
+.container {
+    position: relative;
+    font-family: "filson-pro", sans-serif;
+    background-color: #efe1cf;
+    min-width: 100%;
+    height: 100%;  
 
-.page {
-	color: #EFE1CF
 	
 }
  /* Header style */
-.container1 {
+.header {
     display: grid;
     grid-template-columns:auto; /* Three equal sections */
     align-items: center;
@@ -24,314 +29,203 @@ font-style: normal;
     padding: 0 20px;
     position: relative;
 }
-
-/* Centering the logo */
-.logo-container {
-    display: flex;
-    justify-content: center;
-    grid-column: 2; /* Center column */
+.navbar {
+    position: relative;
+    z-index: 1000;
 }
 
-/* Ensures the image doesn't stretch */
-.logo-container img {
-    max-height: 150px;
-    margin-left: -350px;
+.navbar-collapse .nav-link{
+	background-color: #F15A28; /*!important*/
+	font-family: "filson-pro", sans-serif;
+	color: #EFE1CF;
+	text-decoration: none; /*!important*/
+}
+.navbar-collapse .nav-link:hover{
+	color: #D43F00; /*!important*/
+	
+}
+
+.logo-container{
 	justify-content: center;
+	display: flex;
+	margin-top: -120px;
+	position:relative;
+	z-index: 1050;
 }
 
-/* Aligns the button container to the right */
-.button-container {
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    height: 16px;
-    width: 348px;
-	
-}
-
-/* Optional: Styling buttons */
-.btn-primary {
-    padding: 10px 15px; /* Adjusted padding */
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #F15A28;
-    color: #EFE1CF;
-    font-weight: bold;
-    font-family: "snicker", sans-serif;
-    text-align: center;
-    display: inline-flex; /* Makes text align perfectly */
-    align-items: center; /* Centers text vertically */
-    justify-content: center; /* Centers text horizontally */
-    height: 20px;
-    line-height: normal; /* Prevents text clipping */
-}
-
-.btn-primary:hover {
-    background-color: #D43F00;
-}
-
-.container2 {
+/* Fullscreen video bovenaan */
+.hero-video {
     width: 100%;
-    height: 700px;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    font-family: "filson-pro", sans-serif;
-	overflow: hidden;
-	
-}
-
-.video {
+    height: 100vh; /* Volledige viewport hoogte */
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-video video {
     width: 100%;
     height: 100%;
-}
-/*
-video {
-    max-width: 100%;
-    max-height: 100%; 
-    object-fit: cover; 
-}
-*/
-.linkwraper{
-  text-decoration: none; /* Removes underline */
-  color: inherit; /* Keeps text color unchanged */
-  display: block; /* Makes the whole div clickable */
+    object-fit: cover;
 }
 
-	
-.container3 {
-    width: auto;
-    height: 350px;
-    justify-content: center;
+
+.overus {
+    width: 100%;
+    padding-top: 30px;
     background-color: #EFE1CF;
-    font-family: "filson-pro", sans-serif;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-}
-
-.container3 h5 {
-    font-size: 30px;
-    font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    position: relative;
-	color: #F15A28;
-	bottom: -110px;
-}
-.container3 h2 {
-	 font-size: 18px;
-    max-width: 60%;
-	margin-top: 80px;
-    color: #56A4DA;
-    line-height: 20px;
-	bottom: 35px;
-	
-}
-
-.container3 p {
-	color: #f15a28;
-	max-width: 60%;
-	margin-top: 10px;
-	
-}
-
-.container3 h1 {
-	max-width: 60%;
-	margin-top: -20px;
-	font-size: 18px;
-	color: #56A4DA;
-	
-}
-
-.orange {
-	color: #f15a28;
-}
-.nearestbuddy h4 {
-	font-size: 30px;
-    font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    position: relative;
-    bottom: -355px; 
-	color: #F15A28;
-}
-
-
-.happytails {
-    color: #efe1cf;
-    font-family: "filson-pro", sans-serif;
-    font-size: 35px;
-}
-
-.image-wrapper {
-    display: flex; /* Zet de items naast elkaar */
-    justify-content: center; /* Zorgt ervoor dat ze in het midden staan */
-    align-items: center; /* Centreert alles verticaal */
- 
-}
-
-.paw-container {
-    position: relative;
-    text-align: center;
-    padding-left: 40px;	
-	padding-bottom: 130px;
-
-}
-
-
-
-
-.paw-container {
-  display: block; 
-  max-width: 100%;
-  height: auto;
-}
-
-.video {
-    width: 289px;
-    height: 145px;
-}
-   
-
-.container4 {
-    text-align: center; /* Centers the content inside the header */
-    background-color: #EFE1CF; /* Optional background color */
-    margin-top: 0px;
-    width: auto;
-    height: 443px;
-    font-family: "filson-pro", sans-serif;
-}
-
-.guaranteed{
-    text-align: center;
-    font-size: 48px;
-    font-family: "filson-pro", sans-serif;
-	color: #F15A28
-}
-.guaranteed h5 {
-    padding-top: 25px; /* Moves text down without affecting the container */
-    font-size: 30px;
-	font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-.guaranteed h3{
-    font-size: 11px;
-	
-}
-
-.image-container {
-    display: flex; /* Puts images in a row */
-    justify-content: center; /* Centers images */
-    gap: 20px; /* Space between the first two images */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
     align-items: center;
-    height: 270px;
-}
-
-.view-more {
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.5); /* Slight background for readability */
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-
-.container5 {
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    background-color: #56A4DA; /* Optional background color */
-    width: 100%;
-    height: 250px; /* Adjust height as needed */
-    position: relative; /* This is important for absolute positioning inside */
-    font-family: "filson-pro", sans-serif;
-}
-
-.nose {
-    max-width: 100%;
-    height: auto;
-    transform: rotate(-15deg) translate(-400px, -200px); 
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-}
-
-.container5 h2 {
-    font-size: 18px;
-    text-align: center; /* Center the text */
-    max-width: 50%;
-    position: absolute; /* This will allow the text to be over the image */
-    top: 60%; /* Vertically centers the text */
-    left: 50%; /* Horizontally centers the text */
-    transform: translate(-50%, -50%); /* Fine-tunes the centering */
-    z-index: 2; /* Ensures the text is in front of the image */
-    color: #EFE1CF;
-    line-height: 28px;
-}
-
-.our-mission-text {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Perfect centering */
-    color: #EFE1CF;
-    font-size: 30px; /* Adjust size as needed */
-    font-weight: bold;
     text-align: center;
+    position: relative;
+	max-height: 400px;
+}
+
+.container-reviews {
+    max-width: 80%; 
+    margin: 0 auto;
+	font-family: "filson-pro", sans-serif;
+	
+}
+
+h2 {
+	color: #f15a28;
+	font-family:  "snicker", sans-serif;;
+}
+
+h3{
+	color: #f15a28;
+	font-family:  "snicker", sans-serif;;
+}
+
+.nearestbuddy {
     width: 100%;
-    pointer-events: none;
-	font-family: "snicker", sans-serif;
+    text-align: center;
+}
+
+.nearestbuddy h4 {
+    font-size: 30px;
+    font-family: "snicker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #56A4DA;
+	padding-top: 0px;
+}
+
+.guaranteed {
+    width: 100%;
+    background-color: #EFE1CF;
+    text-align: center;
+    align-items: center;
+	padding-bottom: 40px;
+}
+
+.guaranteed-content {
+    max-width: 900px; 
+    margin-top: 60px;
+}
+
+.img-fluid {
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 
-.container6 {
-    text-align: center; /* Centers the content inside the header */
-    background-color: #efe1cf; /* Optional background color */
-    margin-top: -80px;
-    width: auto;
-    height: 450px;
+.guaranteed h5 {
+    font-size: 30px; 
+    font-family: "snicker", sans-serif;
+    font-weight: 700;
+    color: #F15A28;
+	padding-top: 20px;
+}
+
+.guaranteed h3 {
+    font-size: 14px;
+    color: #f15a28;
+	
+}
+
+
+
+.blueblock {
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centreert de inhoud verticaal */
+    align-items: center; /* Centreert de inhoud horizontaal */
+    background-color: #56A4DA;
+    width: 100vw; 
+    min-height: 30vh; 
+    text-align: center;
     font-family: "filson-pro", sans-serif;
+    position: relative; 
+/*    overflow: hidden; */
+/*    padding: 20px; */
+    box-sizing: border-box;
+
 }
 
 
-.blog h5 {
-    padding-top: 93px; /* Moves text down without affecting the container */
+.text-content h5{
+	font-size: 30px;
+    color: #EFE1CF;
+	font-family: "snicker", sans-serif;
+
+}
+
+.text-content h2 {
+	color: #EFE1CF;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+/* Zorgt dat de afbeelding achter de tekst komt */
+.nose {
+    max-width: 50%;
+    height: auto;
+    transform: rotate(-15deg) translate(-50%, -50%);
+    position: absolute;
+    top: 30%; 
+    left: 10%; 
+    z-index: 0; /* Zet de afbeelding achter de tekst */
+}
+
+
+.text-content {
+    position: relative;
+    z-index: 1;
+	width: 70%
+}
+
+.blog-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100px;
+	color: #f15a28;
+
+}
+
+
+.blog-text h5 {
+	padding-top: 20px;
     font-size: 30px;
     color: #F15A28;
 	font-family: "snicker", sans-serif;
 }
 
-.blog h3 {
-	padding-top: 0px; /* Moves text down without affecting the container */
-    font-size: 11px;
-	color: #F15A28;
+.blog-text h3 {
+    font-size: 15px;
+    color: #F15A28;
+    top: 85px;	
 }
-
-
-.viewmorebone {
-	padding-top: -60px; /* Moves text down without affecting the container */
-    font-size: 28px;
-	font-family: "snicker", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
-
 
 .dog {
     position: relative; /* Makes the element moveable */
-	top: -40px;
+	top: -70px;
 	bottom: 40px;
     height: 0px;
     width: 10px;

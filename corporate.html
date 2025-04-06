@@ -51,6 +51,10 @@
     }
 }
 
+		.container-gap {
+			margin-top: 5rem;
+		}
+
     </style>
 </head>
 
@@ -58,39 +62,380 @@
 	
 	
 <body>
-<header class="container1">
+	<div>
+<nav class="navbar navbar-expand-lg" style="background-color: #F15A28">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="corporate.html">Corporate</a>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="dogloverthoughts.html">Blog</a> </li>
+        <li class="nav-item">&nbsp;</li>
+      </ul>
+	  </div>
+  </div>
+</nav>
+
+<header class="container-header">
     <div class="logo-container">
         <a href="index.html">
             <img src="images/indexpage/headerphoto.svg" class="img-styling" width="300" height="200" alt="Happy Tails logo">
         </a>
     </div>
-    <div class="button-container">
-	<a href="about us.html">
-    <button class="btn btn-primary" type="button">About</button>
-</a>
-<a href="services.html">
-		<button class="btn btn-primary" type="submit">Services</button>
-	</a>
-		<a href="dogloverthoughts.html">
-        <button class="btn btn-primary" type="submit">Blog</button>
-			</a>
-		<a href="corporate.html">
-        <button class="btn btn-primary" type="submit">Corporate</button>
-			</a>
-    </div>
 </header>
-	
-  
-<div class="coporatepagecolor"> 
-	
-	</div>	
-	
-	
+	</div>
+
+    <main class="container-fluid container-xl container-gap">
+      <div class="row">
+        <div class="col-sm-4 col-md-3 col-lg-2 py-4">
+          <nav id="navbar-corporate" class="nav sticky-sm-top flex-row flex-sm-column lh-1 justify-content-sm-between">
+            <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#general">General</a>
+            <a class="nav-link p-0 mb-sm-3 fs-5 me-2 me-sm-0 text-decoration-none" href="#content">Content</a>
+            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#production">Production</a>
+            <nav class="nav d-none d-sm-flex flex-column mb-2">
+              <a class="nav-link ms-3 p-0 mb-2" href="#production-1">Design Elements</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#production-2">Credits</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#production-3">Testing Report</a>
+            </nav>
+            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#marketing">Marketing</a>
+            <nav class="nav d-none d-sm-flex flex-column mb-2">
+              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-1">Context of campaign and promotional activities</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-2">Learning Points</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-3">Future Planning</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#marketing-4">Professionalism</a>
+            </nav>
+            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#management">Management</a>
+            <nav class="nav d-none d-sm-flex flex-column mb-2">
+              <a class="nav-link ms-3 p-0 mb-2" href="#management-1">Lean Canvas</a>
+              <a class="nav-link ms-3 p-0 mb-2" href="#management-2">Validation of Assumptions</a>
+            </nav>
+            <a class="nav-link p-0 mb-sm-2 fs-5 me-2 me-sm-0 text-decoration-none" href="#appendix">Appendix</a>
+          </nav>    
+        </div>
+        <div class="col-sm-8 col-md-9 col-lg-10 py-sm-4">
+
+          <!-- Start General -->
+          <h2 id="general">General Information</h2>
+          <p>
+            This branded website is publicly available at
+            <a href="https://buas-media-interactive.github.io/">buas-media-interactive.github.io/my-website</a>
+            <em>(please change text <strong>and</strong> hyperlink destination)</em>
+          </p>
+          <p>
+            This website was created by&hellip; 
+          </p>
+          <ol>
+            <li>Amy de Graaf (ID: 230012)</li>
+            <li>Luuk van Houts (ID: 231376 )</li>
+			<li>Jada Page (ID: 247298)</li>
+		    <li>Tess Lehner (ID: 247287)</li>
+          </ol>
+          <!-- End General -->
+
+          <!-- Start Content -->
+
+			<h2 id="content">Content</h2>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr class="bg-white">
+                <th scope="col">#</th>
+                <th scope="col">Student ID</th>
+                <th scope="col">Value</th>
+                <th scope="col">Name and link of content</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1.</th>
+                <td>230012</td>
+                <td>Homepage, Corporate, Lean canvas, Marketing, Persona's, Content</td>
+                <td>
+                  <a href="index.html">Homepage</a>
+					<a href="corporate.html"> Corporate</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">2.</th>
+                <td>231376</td>
+                <td>Services and About us</td>
+                <td>
+                  <a href="services.html"> Services</a>
+					<a href="aboutus.html"> About us</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">3.</th>
+                <td>247298</td>
+                <td>Blog</td>
+                <td>
+                  <a href="dogloverthoughts.html">Blog</a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">4.</th>
+                <td>247287</td>
+                <td>Contact page</td>
+                <td>
+                  <a href="contact.html">Contact</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+           
+          <h4> Slogan</h4>
+          <p>Paws up for playtime!</p>
+          <p><em>The slogan captures the excitement and joy. “Paws up” symbolizes the enthusiasm, while “for playtime” focuses on the core of our service. It aligns with our mission to create a playful, trustworthy community where dogs and dog owners can connect with playdates, care and friendship for their furry companions.</em></p>
+          <h4>Brand message</h4>
+          <p>Making it easier for dog lovers to find playmates for their pups</p>
+		  <p><em>The brand message reflects the values by making it easy for dog owners to connect, promoting playfulness and companionship, while still ensuring convenience and peace of mind through safe and reliable connections</em></p>
+          <h4>Vision</h4>
+		  <p>To connect dog owners with trusted like-minded pet lovers, ensuring every dog gets the attention, play, and care they deserve.</p>
+          <p><em>Our vision focuses on connecting the dog owners with like-minded pet lovers, ensuring that they will get their attention and play they deserve, while fostering trusted community based on companionship and care beyond basic needs</em></p>
+          <h4>Mission</h4>
+          <p>Our mission is to create a vibrant and trusted community where dog owners can connect, socialize, and find pawmates, care, and friendship for their furry companions. We make every dog's life happier and healthier by fostering meaningful connections and offering convenient services like playdates and dog sitting. Because every pup deserves a fur-ever friend!</p>
+		  <p><em>This mission supports the need for a trusted, social space where dog owners can easily connect and care for their pets. By offering services like playdates and dog sitting, it promotes happier, healthier lives for dogs while building a strong, supportive community. Every pup deserves friendship, and so do their humans.</em></p>
+		  <h4>Values</h4>
+		  <h5>Where Every Tail Finds Joy!</h5>	
+          <p><em>Playing is the basics of the well-being of your dogs. It’s not only about having fun with your dog, it’s about having your dog play with others to socialize them, it’s about their mental stimulation and letting them run around and meet their limits. This value emphasizes the importance of giving your dog opportunities to interact, explore and enjoy their time with other dogs and humans. whether you do it through playdates, games, or adventure. Play is an essential part of a dog's health and happiness.</em></p>
+			<h5>Paws beyond the basics </h5>	
+          <p><em>Besides the basics of feeding, walking and playing with your dog. We also ensure that your dog feels mentally stimulated, furfilled and satisfied. This value represents our effort to provide services such as dog sitting, playdates and creating a community of dog owners where you can find support and meet new people for you and your four-legged friend.</em></p>
+			<h5>Pawsitive Connections, Unbreakable Bonds!</h5>	
+          <p><em>This value highlights the importance of building a connection, discovering new adventures and creating bonds that support the companionship between dogs and humans. The bond between your dog and you is the most special bond you create in life, making sure your dog is happy and taking care of is the best thing you can do for you dog, helping your dog find new connections and friend helps dogs to feel socially and physically in shape, and ensures that owners can create a new network.</em></p>
+			<h5>We've Got Your Tail Covered!</h5>	
+          <p><em>We recognize the struggle that life can be busy, and finding time to care for and socialize your dog isn’t as easy as most people think. This value is the core of our company, providing a hassle-free solution for dog owners to help your dog find even more joy, whether through our easy-to-arrange playdates, the dog-sitting services, or our supportive community.</em></p>
+		  <h5>Trust Us, We Don’t Play Fetch with Safety</h5>	
+<p><em>Trust and safety are essential when it comes to you and your dog. That’s why we create a secure environment where you can confidently connect with a trusted dog community. Our reliable service ensures that your dog is always in safe hands, giving you peace of mind. By fostering meaningful connections between owners and their dogs, we build a supportive network where safety and trust come first.</em></p>
+			 <img src="images/corporate/styleguide.svg" width="auto" height="250" class="img-fluid" alt="styleguide"/>
+			<h3>Do's</h3>
+		  <img src="images/corporate/do's.png" width="auto" height="250" class="img-fluid" alt="Do's logo"/>
+<h3>Don'ts</h3>
+<img src="images/corporate/don't.png" width="auto" height="250" class="img-fluid" alt="don'ts logo"/>
+<h4>Design Elements</h4>
+          <ul>
+            <li>
+             Our visual identity is built around a simple yet intentional three-color palette.
+             
+              <ul class="list-unstyled">
+                <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #EFE1CF;"></span>
+                  #EFE1CF
+                  <em>  This is our base color, used as the background in most designs. It brings warmth, calmness, and a natural tone that reflects comfort and friendliness. Beige creates a neutral canvas that allows our accent colors to stand out while maintaining a soft, inviting aesthetic.</em>
+                </li>
+                <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #f15a28;"></span>
+                  #F15A28
+                  <em> One of the few colors that dogs can perceive, blue was selected for its practicality and emotional resonance. It symbolizes trust, reliability, and calmness, values that are at the heart of our brand. Blue also helps us connect with both pets and their owners on a deeper level.</em>
+                </li><li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #56A4DA;"></span>
+                  #56A4DA
+                  <em> s the complementary color to blue, orange brings energy, enthusiasm, and warmth to our palette. It adds a playful, vibrant touch that contrasts beautifully with blue, creating a visually harmonious and balanced feel.</em>
+                </li>
+				  <br>
+				  Together, these colors not only create a strong and consistent visual identity but also support the emotional tone we want to convey, joy, trust, and a sense of belonging for every member of our dog-loving community.
+				 
+    				  <li>Font choices</li>
+			  <p>The main font is called “snicker” . This font is playful and looks like it’s written with the hand. This gives an authentic and friendly look.</p> <p>The secondary font is Filson pro. This is a more simple font that is easily readable for larger pieces of text while still fitting within our style. It is a dynamic and modern font.</p>
+       
+          <!-- End Content, start Production -->
+          
+          <h2 id="production" class="mt-5">Production</h2>
+          <h4 id="production-1" class="mt-2">Design Elements</h4>
+          <p>Please provide a list of design elements alongside their justifications:</p>
+          <ul>
+            <li>
+              A colour scheme (with HTML colour codes, which must be consistent with your final website)
+              <em>&mdash; see the example below from the BUas brand book:</em>
+              <ul class="list-unstyled">
+                <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #EE7622;"></span>
+                  #EE7622
+                  <em>The orange colour refers to the Dutch identity and the city of Breda (Oranjestad). Orange stands for&hellip;</em>
+                </li>
+                <li>
+                  <span class="border border-secondary rounded px-2 me-1" style="background-color: #00406B;"></span>
+                  #00406B
+                  <em>Dark blue signifies&hellip;</em>
+                </li>
+              </ul>
+            </li>
+            <li>Font choices</li>
+            <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
+            <li>The structure of the <strong>navigation and content</strong> (e.g. how content units are distributed across pages)</li>
+            <li>All these elements must be justified by referring to the theory <strong>and/or vocabulary</strong> of design</li>
+            <li>Please relate these elements to other units, for example:
+              <ul>
+                <li>How does website design fit the <strong>values and personality of the brand</strong>?</li>
+                <li>How does website design fit the <strong>marketing and communication strategy</strong>?</li>
+                <li>How does website design help showcase the <strong>unique value proposal of the product</strong>?</li>
+              </ul>
+            </li>
+          </ul>
+          <h4 id="production-2" class="mt-2">Credits</h4>
+          <p>Please provide links and/or credits for third-party elements including:</p>
+          <ul>
+            <li>HTML <strong>templates</strong> if these are different from this one (<a href="https://github.com/buas-media-interactive/prj4-group-template" target="_blank">buas-media-interactive/prj4-group-template</a>)</li>
+            <li>The source code for <strong>UX patterns</strong> other than the ones provided by the “Bootstrap” library (see <a href="https://getbootstrap.com/docs/5.2/" target="_blank">getbootstrap.com/docs</a> for a list of such patterns)</li>
+            <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images)</li>
+          </ul>
+          <h4 id="production-3" class="mt-2">Testing Report</h4>
+          <p>Please write about&hellip;</p>
+          <ul>
+            <li>Your testing <strong>goals</strong> &ndash; in other words, what you are trying to learn about your website?</li>
+            <li>Your testing <strong>methods</strong>, which includes information about:
+              <ul>
+                <li>The test&rsquo;s <strong>participants</strong> (number, match with target audience, etc.)
+                <li>The test&rsquo;s <strong>setting</strong> (which material is used, is it done remotely, on campus, at home, etc.)
+                <li>The test&rsquo;s <strong>protocol</strong> (what instructions are given, how it is recorded, etc.)
+              </ul>
+            </li>
+            <li>Your testing <strong>results</strong>, which includes information about:
+              <ul>
+                <li>Positive and negative aspects of the UI/UX that have been identified, ranked by importance.</li>
+                <li>Improvements that have been implemented on the final website (or that would be implemented if doing so would be too complex)</li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- End Production, start Marketing -->
+
+          <h2 id="marketing" class="mt-5">Marketing</h2>
+          <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
+          <p>Explain the context of the campaign is (What the campaign is about, what the message is, which promotional activities were executed). In addition, present the objectives as mentioned in the Communication en Media Plan.</p>
+          <p>Explain and justify the chosen channels/platforms used and show there is a solid connection to the objectives established in the Communication en Media Plan.</p>
+          <h4 id="marketing-2" class="mt-4">Learning Points</h4>
+          <p>Identify and justify your learning point (based on the Communication en Media Plan). What did you learn during the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
+          <h4 id="marketing-3" class="mt-4">Future Planning</h4>
+          <p>Reflection on what has been done and describe in detail what you would do if the project would continue.</p>
+          <p>Describe in detail your future recommendations if the campaign would be continued.</p>
+          <p>Detail and describe clearly the process of what your would do differently based on you experience on this project related to the marketing assignment.</p>
+          <h4 id="marketing-4" class="mt-4">Professionalism</h4>
+          <p>Present and organize below all social media/online activities of the campaign. Context and material are according to the brand style, image, and vision. Images on the site are of high-quality, readable, and properly designed.</p>
+          <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center">
+            <li class="m-2">
+              <a href="#"><!-- Please make a link to your socials instead -->
+                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
+              </a>
+            </li>
+            <li class="m-2">
+              <a href="#"><!-- Please make a link to your socials instead -->
+                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
+              </a>
+            </li>
+            <li class="m-2">
+              <a href="#"><!-- Please make a link to your socials instead -->
+                <img alt="Image Placeholder" class="img-thumbnail" src="images/social-media-placeholder.jpg">
+              </a>
+            </li>
+          </ul>
+        
+          <!-- End Marketing, start Management -->
+
+          <h2 id="management" class="mt-5">Management</h2>
+
+          <h4 id="management-1" class="mt-2">Lean Canvas</h4>
+
+          <p>Fill in at least 2 bullet points per building block and according to the rubrics.</p>
+
+          <p class="fw-bold">Problem</p>
+          <ul>
+            <li>List your top 3 problems you solve for your target group(s).</li>
+            <li>Describe briefly how the problems are solved now (existing alternatives).</li>
+          </ul>
+          <p class="fw-bold">Solution</p>
+          <ul>
+            <li>Outline the brand solution(s) you have for the above problem(s).</li>
+          </ul>
+          <p class="fw-bold">Customer segments</p>
+          <ul>
+            <li>List your target customers and/or users.</li>
+            <li>Describe briefly the characteristics of your ideal customer (early adopter, brand persona).</li>
+          </ul>
+          <p class="fw-bold">Unique value proposition</p>
+          <ul>
+            <li>With a single, clear compelling message, state why your brand idea is different and worth paying attention to.</li>
+            <li></li>
+          </ul>
+          <p class="fw-bold">Unfair advantage</p>
+          <ul>
+            <li>List the aspect(s) of your brand that cannot easily be copied, also called your sustainable competitive advantage(s).</li>
+          </ul>
+          <p class="fw-bold">Channels</p>
+          <ul>
+            <li>List your main path to customers.</li>
+            <li>How do you reach them? What channel(s) do you use.</li>
+          </ul>
+          <p class="fw-bold">Key metrics</p>
+          <ul>
+            <li>List the key numbers that tell you how your brand experience is doing.</li>
+            <li>For example amount of users, downloads, visitors, subscriptions, sales etc. Numbers you are able to measure.</li>
+          </ul>
+          <p class="fw-bold">Revenue streams</p>
+          <ul>
+            <li>List your sources of revenue: describe the revenue model and the (different) revenue stream(s).</li>
+          </ul>
+          <p class="fw-bold">Cost structure</p>
+          <ul>
+            <li>List your main costs: define the fixed and variable costs.</li>
+            <li>Calculate the cost per unit.</li>
+          </ul>
+          <p class="fw-bold">Services/products</p>
+          <ul>
+            <li>State what your product and/or service is and how this contributes to your unique value proposition.</li>
+            <li>Clarify the fit between the product/service developed and the brand identity/brand image.</li>
+          </ul>
+
+          <h4 id="management-2" class="mt-2">Validation of Assumptions</h4>
+          <p>Write a reflection on the choices made in creating choosing the trademark, including an analysis of the existing alternatives.</p>
+
+          <!-- End Management, start Appendix -->
+          
+
+          <h2 id="appendix" class="mt-5">Appendix</h2>
+
+          <p>
+            Please use the list below to provide links to evidence for all parts of your justication.
+            Please double-check all links before delivering the website.
+            Do not hesitate to refer to these numbers above.
+          </p>
+
+          <ol>
+            <li>
+              <a href="https://" target="_blank">Description of evidence #1</a>
+            </li>
+            <li>
+              <a href="https://" target="_blank">Description of evidence #2</a>
+            </li>
+            <li>
+              <a href="https://" target="_blank">Description of evidence #3</a>
+            </li>
+            <li>
+              <a href="https://" target="_blank">Description of evidence #4</a>
+            </li>
+            <li>
+              <a href="https://" target="_blank">Description of evidence #5</a>
+            </li>
+          </ol>
+		</ul>
+        </div>
+			
+      </div>
+    </main>
+		
 	
 <div>
     <div class="container7">
         <div class="aboutus">
-            <h2><a href="about us.html">About us</a></h2>
+            <h2><a href="aboutus.html">About us</a></h2>
             <h2><a href="corporate.html">Coporate</a></h2>
             <h2><a href="services.html">Services</a></h2>
           <h2><a href="contact.html">Contact</a></h2>
@@ -107,7 +452,7 @@
 			<div>
   <div class="social-icons">
     <div class="Instagram">
-        <a href="https://www.instagram.com/happytailsoffical_/" target="_blank">
+        <a href="https://www.instagram.com/happytailsofficial_/?igsh=MXAzNXpmMDIyMnZoNA%3D%3D#" target="_blank">
             <img src="images/indexpage/instagram.svg" width="50" height="50" alt="Instagram">
         </a>
     </div>
@@ -118,10 +463,18 @@
     </div>
 </div>
 
+
+
 		  </div>
         </div>
     </div>
 </div>
+	
+<div class="copyright"> 
+    &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Design by Happy Tails
+</div>
 
-</body>
+  </body>
 </html>
+
+

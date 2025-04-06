@@ -7,46 +7,97 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link rel="stylesheet" href="https://use.typekit.net/ehy3erp.css">
-    <link href="cssluuk.css" rel="stylesheet" type="text/css">
+	
+
+<!-- Bootstrap JS (required for the toggler and collapse) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+	    <link href="cssluuk.css" rel="stylesheet" type="text/css">
+
+<!--
+	 <style>
+		.img-styling {
+			position: absolute;
+			z-index: 1;
+	
+
+	</style>
+-->
+	 
 </head>
 	
 	
  <body>
-  <header class="container1">
+	<div>
+<nav class="navbar navbar-expand-lg" style="background-color: #F15A28">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="corporate.html">Corporate</a>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="dogloverthoughts.html">Blog</a> </li>
+        <li class="nav-item">&nbsp;</li>
+      </ul>
+	  </div>
+  </div>
+</nav>
+
+<header class="container-header">
     <div class="logo-container">
         <a href="index.html">
-            <img src="Images/indexpage/headerphoto.svg" width="300" height="200" alt="Happy Tails logo">
+            <img src="images/indexpage/headerphoto.svg" class="img-styling" width="300" height="200" alt="Happy Tails logo">
         </a>
     </div>
 </header>
 	 
 	 
-<div> 
-	<div class="photoplaydates">
-		<img src="Images/aboutus/Photo50.png" alt="textblob" width="140" height="100">
-	</div>
-	<div class="bubble1">
-		<img src="Images/aboutus/asset50.svg" alt="textblob" width="100" height="100">
-	</div>
-	<div> 
-		<div class="playdates-text">
-			Playdates
-		</div>
-		<div class="playdates-text-small">Playdates are scheduled meetups where dog owners connect to let their dogs socialize, play, and exercise together in a safe and friendly environment. It’s an opportunity for dogs to make new furry friends, burn off energy, and learn social skills, while owners get to meet like-minded people and build a community of trusted pet lovers.
 
-For Happy Tails, playdates are at the core of what we offer: easy-to-arrange, fun, and safe meetups that ensure your dog stays happy, healthy, and well-socialized.</div>
-	</div>
-	<div>
-	<div class="playdates-button">
-		<img src="Images/indexpage/asset51.svg" alt="textblob" width="100" height="100">
-		 </div>
-	</div>
-	<div>
-	<div class="playdates-button-text">
-		Arrange a playdate
-		</div>
-	</div>
-</div>	 
+      
+  
+<div class="container">
+    <div class="row">
+        <!-- Blob51 Image (3 Columns Wide) -->
+		      <div class="col-12 col-sm-2 col-md-3 col-lg-3"></div> <!-- Empty space before the image -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 position-relative text-center">
+            <!-- Image -->
+            <img src="Images/services/Blob51.png" alt="textblob" class="img-fluid">
+
+            <!-- Overlay Text (Inside the Image) -->
+            <div class="position-absolute top-50 start-50 translate-middle text text-center w-100">
+                <h2 class="fs-3 fw-bold">Playdates</h2>
+                <p class="fs-6 px-3">
+                    Playdates are scheduled meetups where dog owners connect to let their dogs socialize, play, and exercise together in a safe and friendly environment. 
+                    It’s an opportunity for dogs to make new furry friends, burn off energy, and learn social skills, while owners get to meet like-minded people and build a community of trusted pet lovers.
+                </p>
+            </div>
+			        </div>
+        <!-- Photo -->
+		<div class="image-container col-12 col-sm-6 col-md-4 col-lg-3">
+            <img src="Images/services/Photo50.png" alt="textblob" class="img-fluid">
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Playdates Button -->
+<div class="container">
+    <div class="row">
+		<div class="col-12 col-sm-1 col-md-1 col-lg-5"></div> <!-- Empty space before the image -->
+        <div class="image-container col-12 col-sm-8 col-md-8 col-lg-2">
+            <img src="Images/services/Blob50.png" alt="textblob" class="img-fluid">
+        </div>
+    </div>
+ </div>
 	 
 <main class="container my-3">
       <div class="row g-3 justify-content-evenly">
@@ -54,14 +105,15 @@ For Happy Tails, playdates are at the core of what we offer: easy-to-arrange, fu
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card">
-            <img class="img-fluid" src="Images/aboutus/Meetnewpeoplephoto@4x.png" alt="Placeholder Image">
+            <img class="img-fluid" src="Images/services/Meetnewpeoplephoto1.jpg" alt="Placeholder Image">
             <div class="card-body">
               <h5 class="card-title">Meet new people&nbsp;</h5>
-              <p class="card-text">At Happy Tails, meeting new people means more than just small talk at the dog park. It’s about connecting with fellow dog lovers in your area who share your passion for pets. Whether you’re looking for a trusted playmate for your dog, a reliable dog-sitter, or simply someone to chat with on your daily walks, our platform makes it easy to build meaningful connections.&nbsp;</p>
-              <p class="card-text">You’ll not only find new friends for your pup, you might find a few for yourself too!</p>
+              <p class="card-text">At Happy Tails, meeting new people means more than just small talk at the dog park. It’s about connecting with fellow dog lovers in your area who share your passion for pets.&nbsp;</p>
+              <p class="card-text">Whether you’re looking for a trusted playmate for your dog, a reliable dog-sitter, or simply someone to chat with on your daily walks, our platform makes it easy to build meaningful connections.&nbsp;</p>
+<p class="card-text">You’ll not only find new friends for your pup, you might find a few for yourself too!</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">meeting new people</a>
             </div>
           </div>
         </div>
@@ -69,14 +121,14 @@ For Happy Tails, playdates are at the core of what we offer: easy-to-arrange, fu
         <!-- Card #2 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card h-100">
-            <img class="img-fluid" src="Images/aboutus/Socializephoto@4x.png" alt="Placeholder Image">
+            <img class="img-fluid" src="Images/services/socializephoto1.jpg" alt="Placeholder Image">
             <div class="card-body">
               <h5 class="card-title">socialize your dog</h5>
               <p class="card-text">At Happy Tails, socialising your dog means giving your furry friend the chance to make new buddies, learn good behavior, and have fun in a safe, friendly environment. Dogs are naturally social animals, and regular playdates or meet-ups help them become well-adjusted, confident, and happy.&nbsp;</p>
               <p class="card-text">Whether it’s a quick walk with a neighbor’s pup or joining a group play session, our platform helps you easily find social opportunities that fit your dog's personality and energy level.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">socialize</a>
             </div>
           </div>
         </div>
@@ -84,20 +136,65 @@ For Happy Tails, playdates are at the core of what we offer: easy-to-arrange, fu
         <!-- Card #3 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card h-100">
-            <img class="img-fluid" src="Images/aboutus/dogsitterphoto@4x.png" alt="Placeholder Image">
+            <img class="img-fluid" src="Images/services/dogsitterphoto1.jpg" alt="Placeholder Image">
             <div class="card-body">
               <h5 class="card-title">Dogsitter service</h5>
               <p class="card-text">Our Dog Sitter Service connects you with trusted, caring individuals who can look after your dog when you can’t. Whether you're working late, or just need a helping hand, we’ve got reliable sitters nearby who’ll treat your pup like family.&nbsp;</p>
               <p class="card-text">From quick drop-ins to full-day care, our sitters provide love, attention, and playtime, giving you peace of mind and your dog a happy experience. Because every dog deserves the best care, even when you’re away.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">check dogsitters</a>
             </div>
           </div>
         </div>
         <!-- That was the last card -->
 
       </div>
+	<div>
+		<div class="row"> 
+					 <div class="dog"><img src="images/indexpage/dog.png" width="100" height="75" alt=""/> 
+    				</div>
+				</div>
+    <div class="container7">
+        <div class="aboutus">
+            <h2><a href="aboutus.html">About us</a></h2>
+            <h2><a href="corporate.html">Coporate</a></h2>
+            <h2><a href="services.html">Services</a></h2>
+          <h2><a href="contact.html">Contact</a></h2>
+			 <h2><a href="dogloverthoughts.html">Blog</a></h2>
+        </div>
+
+        <div class="images-container">
+            <div class="happylogo">
+                <img src="images/indexpage/logo.png" width="150" height="70" alt="logo"/>
+            </div>
+            <div class="slogan">
+                <img src="images/indexpage/slogan.png" width="200" height="25" alt="slogan"/>
+            </div>
+			<div>
+  <div class="social-icons">
+    <div class="Instagram">
+        <a href="https://www.instagram.com/happytailsoffical_/" target="instagram">
+            <img src="images/indexpage/instagram.svg" width="50" height="50" alt="Instagram">
+        </a>
+    </div>
+    <div class="Facebook">
+        <a href="https://www.facebook.com/share/1Bv1z2qqKr/" target="facebook">
+            <img src="images/indexpage/facebook.svg" width="50" height="50" alt="Facebook">
+        </a>
+    </div>
+</div>
+
+
+
+		  </div>
+        </div>
+    </div>
+</div>
+	
+<div class="copyright"> 
+    &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Design by Happy Tails
+</div>
     </main>	 
 	 
 	 
@@ -105,4 +202,5 @@ For Happy Tails, playdates are at the core of what we offer: easy-to-arrange, fu
 	 
 	 
 	 
- </body></html>
+ </body>
+			</html>
