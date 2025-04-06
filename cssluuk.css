@@ -155,7 +155,6 @@ body {
 .card {
     color: #efe1cf;
     background-color: #56a4da; /* Change this to your desired color */
-    margin-bottom: px; /* Adjust this value as needed */
     border-radius: 25px;
 }
 
@@ -175,6 +174,7 @@ font-size: 29px;
 
 .img-fluid {
 	border-radius: 25px;
+	margin-top: 30px;
 	
 }
 
@@ -281,3 +281,88 @@ background-color: #efe1cf; /* Change this to your desired color */
 }
 
 
+.aboutustext {
+	 font-size: 30px; 
+    font-family: "snicker", sans-serif;
+    font-weight: 700;
+    color: #F15A28;
+	padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutustext2 {
+	 font-size: 15px; 
+    font-family: "snicker", sans-serif;
+    font-weight: 700;
+    color: #F15A28;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.aboutus-spacing {
+    margin-top: 150pt;
+}
+
+.aboutusimage {
+    
+	position: relative;
+	width: 30%;
+    display: inline-block;
+}
+
+.overlay-text {
+	position: absolute;
+	transform: translate(-7%, -50%);
+	font-size: 19px; 
+	top: 50%;
+    left: 10%;
+	text-align: center;
+	color: #56a4da;
+}
+
+
+.blueblock {
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centreert de inhoud verticaal */
+    align-items: center; /* Centreert de inhoud horizontaal */
+    background-color: #56A4DA;
+    width: 100vw; 
+    min-height: 30vh; 
+    text-align: center;
+    font-family: "filson-pro", sans-serif;
+    position: relative; 
+/*    overflow: hidden; */
+/*    padding: 20px; */
+	box-sizing: border-box;
+}
+
+.text-content h5{
+	font-size: 30px;
+    color: #EFE1CF;
+	font-family: "snicker", sans-serif;
+	 z-index: 1; /* Zet de afbeelding achter de tekst */
+
+}
+
+.text-content h2 {
+	color: #EFE1CF;
+	font-size: 20px;
+	text-align: center;
+	   z-index: 1; /* Zet de afbeelding achter de tekst */
+	
+}
+
+/* Zorgt dat de afbeelding achter de tekst komt */
+.nose {
+    max-width: 50%;
+    height: auto;
+    transform: rotate(-15deg) translate(-50%, -50%);
+    position: absolute;
+    top: 30%; 
+    left: 10%; 
+    z-index: 0; /* Zet de afbeelding achter de tekst */
+}
