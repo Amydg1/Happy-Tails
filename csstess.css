@@ -38,3 +38,6 @@ body {
     font-family: "filson-pro", sans-serif;
 	overflow: hidden;
 }
+.logo-container img {
+  margin-top: 2rem; /* or 40px if you want it lower */
+}
