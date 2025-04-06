@@ -137,13 +137,11 @@ font-family: "snicker", sans-serif;
   color: #EFE1CF;
   font-family: "filson-pro", sans-serif;
   overflow: hidden;
-  .footer {
+}
+.footer {
   border-top-left-radius: 100px 50px;
   border-top-right-radius: 100px 50px;
 }
-
-}
-
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -199,7 +197,7 @@ font-family: "snicker", sans-serif;
 
 .footer-dog {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 25px;
+  left: 30px;
   width: 80px;
 }
