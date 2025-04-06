@@ -23,7 +23,7 @@ body {
 .container1 {
     text-align: center; /* Centers the content inside the header */
     background-color: #F15A28; /* Optional background color */
-    margin-top: -70px;
+    margin-top: 70px;
     width: auto;
     height: 127px;
     font-family: "filson-pro", sans-serif;
