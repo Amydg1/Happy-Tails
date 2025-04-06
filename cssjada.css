@@ -137,6 +137,11 @@ font-family: "snicker", sans-serif;
   color: #EFE1CF;
   font-family: "filson-pro", sans-serif;
   overflow: hidden;
+  .footer {
+  border-top-left-radius: 100px 50px;
+  border-top-right-radius: 100px 50px;
+}
+
 }
 
 .footer-content {
