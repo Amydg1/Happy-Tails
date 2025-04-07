@@ -32,6 +32,11 @@ background-color: #EFE1CF;
     padding: 0 20px;
     position: relative;
 }
+@media (max-width: 768px) {
+  .contact-section {
+    margin-bottom: 20px;
+  }
+}
 
 .contact-container {
   display: flex;
