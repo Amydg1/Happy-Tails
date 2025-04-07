@@ -4,50 +4,40 @@
 	font-family: "filson-pro", sans-serif;
 font-weight: 700;
 font-style: normal;
-background-color: #EFE1CF;
 }
 
-.container {
-    position: relative;
-    font-family: "filson-pro", sans-serif;
-    background-color: #efe1cf;
-    min-width: 100%;
-    height: 100%;  
+body {
+  background-color: #EFE1CF;
+  margin: 0;
+  padding: 0;
+}
 
+
+
+.page {
+	color: #EFE1CF
 	
 }
+
  /* Header style */
-.header {
-    display: grid;
-    grid-template-columns:auto; /* Three equal sections */
-    align-items: center;
-    background-color: #F15A28; /* Your header color */
-    margin-top: -70px;
+.container1 {
+    text-align: center; /* Centers the content inside the header */
+    background-color: #F15A28; /* Optional background color */
+    margin-top:70px;
     width: auto;
     height: 127px;
     font-family: "filson-pro", sans-serif;
-    padding: 0 20px;
-    position: relative;
 }
-.navbar {
-    position: relative;
-    z-index: 1000;
+.container2 {
+    width: 100%;
+    height: 700px;
+    background-color:#F15A28;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    font-family: "filson-pro", sans-serif;
+	overflow: hidden;
 }
-
-.navbar-collapse .nav-link{
-	background-color: #F15A28; /*!important*/
-	font-family: "filson-pro", sans-serif;
-	color: #EFE1CF;
-	text-decoration: none; /*!important*/
+.logo-container img {
+  margin-top: 2rem; /* or 40px if you want it lower */
 }
-.navbar-collapse .nav-link:hover{
-	color: #D43F00; /*!important*/
-	
-}
-
-.logo-container{
-	justify-content: center;
-	display: flex;
-	margin-top: -120px;
-	position:relative;
-	z-index: 1050;
