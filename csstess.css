@@ -7,6 +7,10 @@ font-style: normal;
 background-color: #EFE1CF;
 }
 
+.page {
+	color: #EFE1CF
+}
+
 .container {
     position: relative;
     font-family: "filson-pro", sans-serif;
@@ -15,10 +19,6 @@ background-color: #EFE1CF;
     height: 100%;  	
 }
 
-.page {
-	color: #EFE1CF
-	
-}
  /* Header style */
 .header {
     display: grid;
@@ -57,7 +57,7 @@ background-color: #EFE1CF;
 }
 
 .container2 {
-	margin-top: 200pt;
+	margin-top: 150pt;
 	
 	
 	
