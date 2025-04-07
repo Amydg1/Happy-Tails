@@ -122,3 +122,95 @@ background-color: #EFE1CF;
 	font-family: "snicker", sans-serif;
 	
 }
+
+.dog {
+    position: relative; /* Makes the element moveable */
+	top: -70px;
+	bottom: 40px;
+    height: 0px;
+    width: 10px;
+    left: 50px;
+	max-width: 100%;
+	margin-top: 50pt;
+}
+.container7 {
+    display: flex; 
+    transform: translate;
+	align-content: center;
+	justify-content: center;
+    background-color: #F15A28;
+    padding: 20px; /* Optional: Adds padding to the container */
+    font-family: "filson-pro", sans-serif;
+    width: auto;
+    height: auto;
+}
+
+.images-container {
+    display: flex; /* Align images horizontally */
+    flex-direction: column; /* Stack the images vertically */
+    justify-content: center;
+}
+
+.aboutus h2 {
+    font-size: 18px;
+    color: #efe1cf;
+/*    margin-left:300px;*/
+    margin-top: 9px;
+	
+}
+
+.aboutus a {
+	  color: #efe1cf; /* Change this to any color you like */
+  text-decoration: none; /* Optional: removes underline */
+}
+
+.aboutus a:hover {
+  color: #D43F00; /* Optional: changes color on hover */
+}
+
+.happylogo img,
+.slogan img {
+    display: block; /* Makes images block-level */
+    margin-bottom: 20px; /* Adds space between images */
+    margin-left: 50px; /* Centers images horizontally */
+/*    margin-right: 40px;  Centers images horizontally */
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.social-icons {
+    display: flex;
+    gap: 5px; /* Adjust spacing between social icons */
+    justify-content: center;
+	margin-left: 50px
+}
+
+.social-icons a {
+    pointer-events: auto; /* Ensures the links are clickable */
+    text-decoration: none; /* Removes any unwanted underlines */
+}
+
+.social-icons a:hover {
+  color: #D43F00; 
+}
+
+.coporatepagecolor{
+	background-color: #EFE1CF;
+	width: auto;
+	height: 1000px;
+	
+}
+.copyright {
+    margin: 0 !important; /* Removes extra spacing */
+    text-align: center; /* Centers the text */
+    font-size: 14px; /* Adjusts text size */
+    color: #EFE1CF; /* Slightly darker text for readability */
+    padding: 10px 0; /* Adds some space above and below */
+    background-color: #F15A28; /* Optional: Background color */
+	 border-top: 1px solid #efe1cf; /* Creates a line above */
+}
