@@ -57,9 +57,21 @@ background-color: #EFE1CF;
 }
 
 .container2 {
-	margin-top: 150pt;
+	margin-top: 150pt;	
+}
+
+.main-text {
+	margin-top: 70px;
+	font-size: 30px;
+    color: #69a2d5;
+	font-family: "snicker", sans-serif;
 	
-	
-	
+}
+
+.dogloverthoughts {
+		margin-top: 70px;
+	font-size: 40px;
+    color: #D43F00;
+	font-family: "snicker", sans-serif;
 	
 }
