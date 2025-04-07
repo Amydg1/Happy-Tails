@@ -223,3 +223,18 @@ margin-top: 100pt;
     background-color: #F15A28; /* Optional: Background color */
 	 border-top: 1px solid #efe1cf; /* Creates a line above */
 }
+.contact-form button {
+  background-color: #F15A28;
+  color: #FDF1DC;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: "filson-pro", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #d34712;
+}
