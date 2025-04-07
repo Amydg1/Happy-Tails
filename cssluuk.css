@@ -65,6 +65,72 @@ h3{
 	color: #D43F00; /*!important*/
 	
 }
+
+
+
+
+.container5 {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.value-block {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: height 0.5s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.value-block:hover {
+  height: auto; /* Let it grow only on hover */
+  max-height: 600px;
+}
+
+.title {
+ font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #56a4da;
+	font-family: "snicker", sans-serif;
+}
+
+.description {
+  font-size: 14px;
+font-family: "filson-pro", sans-serif;
+  color: #555;
+  line-height: 1.4;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.value-block:hover .description {
+  opacity: 1;
+  max-height: 1000px;
+}
+
+
+
+
+
+
+
+
+
 .contact-container {
   display: flex;
   justify-content: center;
