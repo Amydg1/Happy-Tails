@@ -82,10 +82,10 @@ margin-top: 100pt;
 /* Left-side bubble */
 .contact-text {
   background-color: #FDEBD0;
-  border-radius: 60% / 40%;
+  border-radius: 70% / 40%;
   padding: 3.5rem 2.5rem 2rem 2.5rem;
-  width: 360px;
-  font-size: 1.1rem;
+  width: 460px;
+  font-size: 1.6rem;
   line-height: 1.6;
   text-align: left;
   color: #56a4da;
@@ -96,10 +96,11 @@ margin-top: 100pt;
   background-color: #FDEBD0;
   padding: 2rem;
   border-radius: 10px;
-  width: 320px;
+  width: 420px;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+
 }
 
 /* Inputs + styling */
