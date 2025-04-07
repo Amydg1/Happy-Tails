@@ -32,6 +32,53 @@ background-color: #EFE1CF;
     padding: 0 20px;
     position: relative;
 }
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contact-text {
+  background-image: url('Images/services/Blob51.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 80% / 40%;
+  padding: 3.8rem 2.5rem 2rem 2.5rem;
+  width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  color: #000000;
+  font-family: "filson-pro", sans-serif;
+}
+
+.contact-story-title {
+  font-size: 2.9rem;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #56a4da;
+	font-family: "snicker", sans-serif;
+}
+
+.contact-image {
+  margin-left: -4.5rem; /* pulls the image a bit left */
+}
+
+.contact-image img {
+  max-width: 300px;
+  height: 250pt;
+  border-radius: 5rem;
+  object-fit: cover;
+}
+
 .navbar {
     position: relative;
     z-index: 1000;
