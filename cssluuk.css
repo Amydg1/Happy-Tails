@@ -588,3 +588,18 @@ background-color: #efe1cf; /* Change this to your desired color */
 display: none;
   }
 }
+
+.linkedin-btn {
+  background-color: transparent;
+  color: #0077b5;
+  border: 2px solid #0077b5;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.linkedin-btn:hover {
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+}
+
