@@ -80,7 +80,7 @@ background-color: #EFE1CF;
     align-items: center;
     text-align: center;
     position: relative;
-	max-height: 400px;
+	max-height: auto;
 }
 
 .container-reviews {
@@ -130,6 +130,7 @@ h3{
 .img-fluid {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	align-content: center;
 }
 
 
