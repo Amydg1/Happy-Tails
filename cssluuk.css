@@ -446,13 +446,13 @@ background-color: #efe1cf; /* Change this to your desired color */
 
 .overlay-text {
 	position: absolute;
-	transform: translate(-5%, -55%);
+	transform: translate(5%, -55%);
 	top: 50%;
     left: 10%;
 	text-align: center;
 	color: #56a4da;
 	 padding: 3.8rem 2.5rem 2rem 2.5rem;
-  width: 500px;
+  width: 400px;
   font-size: 1.1rem;
   line-height: 1.6;
   font-family: "filson-pro", sans-serif;
