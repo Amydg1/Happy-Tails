@@ -467,6 +467,7 @@ background-color: #efe1cf; /* Change this to your desired color */
     align-items: center; /* Centreert de inhoud horizontaal */
     background-color: #56A4DA;
     width: 100vw; 
+	margin-top: 50px;
     min-height: 30vh; 
     text-align: center;
     font-family: "filson-pro", sans-serif;
@@ -540,5 +541,65 @@ background-color: #efe1cf; /* Change this to your desired color */
     height: auto;
 }
 
+.contact-text5 {
+  background-image: url('Images/services/Blob51.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
+  border-radius: 80% / 40%;
+  padding: 3.8rem 2.5rem 2rem 2.5rem;
+  width: 600px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  color: #56a4da;
+  font-family: "filson-pro", sans-serif; 
+    z-index: 1; /* Zet de afbeelding achter de tekst */
+}
+
+.contact-section5 {
+  margin-top: 60px; /* Or use padding-top: 80px; if preferred */
+	margin-bottom: 140px; /* Or use padding-top: 80px; if preferred */
+}
+
+.contact-container5 {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.bone {
+    max-width: 50%;
+    height: auto;
+    transform: rotate(15deg) translate(-50%, -50%) scale(4);
+    position: absolute;
+    top: 40%; 
+    left: 95%; 
+	 z-index: 0; /* Zet de afbeelding achter de tekst */
+}
+
+@media (max-width: 1150px) {
+  .bone {
+display: none;
+  }
+}
+
+.linkedin-btn {
+  background-color: transparent;
+  color: #0077b5;
+  border: 2px solid #0077b5;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.linkedin-btn:hover {
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+}
 
