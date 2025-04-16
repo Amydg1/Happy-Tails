@@ -41,6 +41,9 @@ background-color: #ece1d1;
   align-items: center;
 }
 
+.color {
+    background-color: #ece1d1;
+  }
 .contact-text {
   background-image: url('Images/services/Blob51.png');
   background-size: cover;
